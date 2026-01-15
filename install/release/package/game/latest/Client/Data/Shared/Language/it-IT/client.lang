@@ -1,0 +1,2220 @@
+# === assetEditor ===
+assetEditor.mainMenu.connection.connecting = Connessione al server...
+assetEditor.mainMenu.connection.authenticating = Autenticazione...
+assetEditor.mainMenu.title = Aprire l'editor
+assetEditor.mainMenu.cosmeticsEditor = Cosmetici
+assetEditor.mainMenu.servers = Server
+assetEditor.mainMenu.disconnectionContainer.title = Disconnesso dal server!
+assetEditor.mainMenu.disconnectionContainer.reconnect = Ricollegarsi
+assetEditor.mainMenu.connection.error.failedAuthentication = Errore di autenticazione con il server
+assetEditor.mainMenu.connection.error.failedToEstablishConnection = Non è stato possibile stabilire la connessione al server.
+assetEditor.mainMenu.settingsButton = Configurazione
+assetEditor.settings.title = Configurazione
+assetEditor.settings.setting.diagnosticMode = Modalità diagnostica
+assetEditor.settings.setting.useSystemLanguage = Utilizzo della lingua di sistema
+assetEditor.settings.setting.language = Lingua
+assetEditor.settings.setting.fullscreen = Schermo intero
+assetEditor.settings.setting.exportPath = Cartella di esportazione
+assetEditor.settings.setting.exportPath.dialogTitle = Selezionare una cartella di esportazione
+assetEditor.settings.setting.exportPath.dialogConfirmationButton = Selezionare come cartella di esportazione
+assetEditor.mainMenu.errors.failedToSaveServerList = Non è stato possibile salvare l'elenco dei server.
+assetEditor.mainMenu.serverModal.titleAdd = Aggiungi server
+assetEditor.mainMenu.serverModal.titleEdit = Modifica del server
+assetEditor.mainMenu.serverModal.errors.enterName = Inserire un nome.
+assetEditor.mainMenu.serverModal.errors.enterHostname = Inserire un nome di host.
+assetEditor.mainMenu.serverModal.errors.nameAlreadyInUse = Questo nome è già in uso.
+assetEditor.mainMenu.removeServerModal.title = Rimuovere il server "{serverName}" dall'elenco?
+assetEditor.ipcServerConfirmation.title = Collegarsi al server?
+assetEditor.ipcServerConfirmation.description = Volete disconnettervi da questo server e connettervi a "{serverName}"?
+assetEditor.assetBrowser.searchAssetsPlaceholder = Ricerca di beni
+assetEditor.assetBrowser.findAsset = Ricerca di beni
+assetEditor.assetBrowser.delete = Cancellare
+assetEditor.assetBrowser.rename = Cambia nome
+assetEditor.assetBrowser.duplicate = Duplicato
+assetEditor.assetBrowser.findInFolder = Ricerca nella cartella
+assetEditor.assetBrowser.copyPath = Copia del percorso
+assetEditor.assetBrowser.showInFinder = Mostra nel Finder
+assetEditor.assetBrowser.showInExplorer = Mostra in Explorer
+assetEditor.assetBrowser.createInFolder = Creare {assetType} nella cartella
+assetEditor.assetBrowser.createAssetInFolder = Creare una risorsa nella cartella
+assetEditor.assetBrowser.createFolder = Creare una cartella
+assetEditor.assetBrowser.create = Creare {assetType}
+assetEditor.assetBrowser.tabs.cosmetics = Cosmetici
+assetEditor.assetBrowser.tabs.server = Server
+assetEditor.assetBrowser.tabs.common = Comune
+assetEditor.assetBrowser.tooltips.collapseAll = Chiudere tutte le directory
+assetEditor.assetBrowser.tooltips.createNewAsset = Creare una nuova risorsa
+assetEditor.assetBrowser.tooltips.filter = Filtro
+assetEditor.assetBrowser.export = Attività di esportazione
+assetEditor.assetBrowser.exportAndDiscard = Esportazione dell'asset e scarto
+assetEditor.assetBrowser.discard = Scartare le modifiche
+assetEditor.changeConfirmationModal.title = Richiesta di conferma
+
+
+
+
+assetEditor.jsonObjectEditor.json = JSON
+assetEditor.jsonObjectEditor.jsonParseError = JSON: Error al analizar
+
+
+
+
+
+
+
+
+assetEditor.changeConfirmationModal.text = La modifica di questo valore rimuove alcune proprietà esistenti.
+assetEditor.assetReferenceOrInlineEditor.useExisting = Riferimento esistente
+assetEditor.assetReferenceOrInlineEditor.createEmbedded = Creare un sistema incorporato
+assetEditor.assetReferenceOrInlineEditor.reference = Riferimento a {assetType}
+assetEditor.assetDropdownEditor.openAssetTooltip = Aprire la risorsa in una nuova scheda
+assetEditor.assetDropdownEditor.createAssetTooltip = Creare e assegnare un nuovo {assetType}
+assetEditor.listEditor.empty = Questo elenco è vuoto.
+assetEditor.listEditor.header = {count} Elenco voci
+assetEditor.mapEditor.empty = Questa mappa è vuota.
+assetEditor.mapEditor.header = {count} Voci della mappa
+assetEditor.changelogModal.newVersion = Nuovo
+assetEditor.changelogModal.title = Cosa c'è di nuovo?
+assetEditor.backends.local = Edizione: Patrimonio locale
+assetEditor.backends.server = Modifica: Risorse del server
+assetEditor.backends.tooltip = Fare clic per aprire la directory di esportazione.
+assetEditor.mode.editor = Editore
+assetEditor.mode.source = Fonte
+assetEditor.editor.searchProperties = Ricerca di proprietà
+assetEditor.property.title = Proprietà "{name}"
+assetEditor.property.remove = Cancellare
+assetEditor.property.renameKey = Rinominare la password
+assetEditor.property.moveDown = Scaricare
+assetEditor.property.moveUp = Caricare
+assetEditor.property.createEmbeddedAsset = Convertire in asset integrato
+assetEditor.property.createDedicatedAsset = Convertire in asset dedicato
+assetEditor.property.collapseAllEntries = Chiudi tutte le voci
+assetEditor.property.uncollapseAllEntries = Espandi tutte le voci
+assetEditor.property.openAssetInNewTab = Aprire la risorsa in una nuova scheda
+assetEditor.property.copyAndReferenceAsset = Copia e riferimento attivo
+assetEditor.property.createAndReferenceAsset = Creare e fare riferimento a una risorsa
+assetEditor.property.insertSiblingBefore = Inserire il fratello prima
+assetEditor.property.insertSiblingAfter = Inserire il fratello dopo
+assetEditor.property.list = Elenco
+assetEditor.property.map = Mappa
+assetEditor.property.copyValue = Valore di copia
+assetEditor.property.pasteValue = Valore di incollaggio
+assetEditor.property.map.insertLabel = Inserire
+assetEditor.property.errors.keyAlreadyExists = Questa chiave è già in uso.
+assetEditor.property.tooltip.arrayItem = Indice: {index}
+assetEditor.property.tooltip.mapItem = Legenda: {key}
+assetEditor.property.tooltip.inheritedProperty = Ereditato da {asset} => {value}
+assetEditor.property.tooltip.listEntries = {count} Elenco voci
+assetEditor.property.tooltip.objectEntries = {count} Voci dell'oggetto
+assetEditor.configEditor.button.collapseAll = Contratto tutti
+assetEditor.configEditor.button.expandAll = Espandi tutto
+assetEditor.configEditor.button.showDefinedProperties = Toggle: mostra solo le proprietà definite
+assetEditor.configEditor.button.quickInspect = Ispezione rapida
+assetEditor.sourceEditor.apply = Implementare le modifiche
+assetEditor.sourceEditor.discard = Scartare le modifiche
+assetEditor.sourceEditor.unsavedChangesModal.title = Modifiche non salvate
+
+
+
+\n\
+Haz clic con el botón derecho para eliminar
+
+
+
+
+
+
+assetEditor.renameModal.warning = Advertencia: Cambiar el nombre de un activo no modificará las referencias al mismo en otros archivos JSON. Esta acción podría dañar otros activos.
+
+
+assetEditor.sourceEditor.unsavedChangesModal.text = Ci sono modifiche non salvate nell'editor di codice, sei sicuro di voler continuare?
+assetEditor.sourceEditor.unsavedChangesModal.discardChanges = Scartare le modifiche
+assetEditor.assetSelector.findAsset = Ricerca di beni...
+assetEditor.fileSelector.placeholder = Selezionare un file
+assetEditor.fileSelector.filesSelected = {count} File selezionati
+assetEditor.fileSelector.findFile = Cerca nell'archivio...
+assetEditor.fileSelector.createDirectory = Creare una cartella
+assetEditor.fileSelector.newDirectoryNamePlaceholder = Nome della nuova cartella...
+assetEditor.timelineEditor.insertAt = Inserire il valore in {hour}
+assetEditor.timelineEditor.updateAt = Tempo: {hour}
+assetEditor.modal.applyChangesLocally = Implementare la modifica anche a livello locale
+assetEditor.deleteAssetModal.title = Cancellare la risorsa?
+assetEditor.deleteAssetModal.text = Siete sicuri di voler cancellare "{assetId}"?
+assetEditor.deleteAssetModal.confirmButton = Cancellare
+assetEditor.deleteDirectoryModal.title = Cancellare la cartella?
+assetEditor.deleteDirectoryModal.text = Siete sicuri di voler cancellare "{path}"?
+assetEditor.deleteDirectoryModal.confirmButton = Cancellare
+assetEditor.keyModal.renameTitle = Rinominare la password
+assetEditor.keyModal.insertTitle = Inserire la chiave
+assetEditor.keyModal.renameButton = Cambia nome
+assetEditor.keyModal.insertButton = Inserire
+assetEditor.keyModal.errors.existingKey = Una voce con questa chiave esiste già!
+assetEditor.keyModal.errors.invalidProperty = Proprietà non valida
+assetEditor.keyModal.errors.fieldEmpty = Inserire una nuova password!
+assetEditor.iconExporterModal.export = Icona di salvataggio
+assetEditor.iconExporterModal.reset = Ripristino delle impostazioni predefinite
+assetEditor.iconExporterModal.previewZoom = Anteprima Zoom
+assetEditor.iconExporterModal.rotationX = Rotazione X
+assetEditor.iconExporterModal.rotationY = Rotazione E
+assetEditor.iconExporterModal.rotationZ = Rotazione Z
+assetEditor.iconExporterModal.translationX = Posizione X
+assetEditor.iconExporterModal.translationY = Posizione Y
+assetEditor.iconExporterModal.scale = Scala
+assetEditor.iconExporterModal.errors.invalidConfig = Questo elemento non è configurato correttamente per mostrare un'anteprima.
+assetEditor.renameModal.titleAsset = Rinominare la risorsa
+assetEditor.renameModal.titleFolder = Cambiare il nome della cartella
+assetEditor.renameModal.renameButton = Cambia nome
+assetEditor.renameModal.newId = Nuovo ID
+assetEditor.renameModal.newName = Nuovo nome
+assetEditor.renameModal.errors.invalidId = Inserire un identificatore valido. Un identificatore può contenere solo lettere e numeri, oltre al simbolo _ per contrassegnare alcune categorie di identificatori.
+assetEditor.idValidation.empty = Il campo id non può essere vuoto.
+assetEditor.idValidation.minLength = Un identificatore deve essere composto da almeno {count} caratteri.
+assetEditor.idValidation.maxLength = Un identificatore non può contenere più di {count} caratteri.
+assetEditor.idValidation.onlyLettersAndDigits = Un identificatore può contenere solo lettere e cifre.
+assetEditor.idValidation.firstUppercase = La prima lettera di un identificatore o dopo un trattino basso deve essere maiuscola.
+assetEditor.idValidation.firstLetter = Il primo carattere di un identificatore o dopo un trattino basso deve essere una lettera.
+assetEditor.idValidation.underscoreEmpty = Un identificatore non può iniziare o terminare con un trattino basso e un trattino basso non può essere seguito da un altro trattino basso.
+assetEditor.createAssetModal.title = Creare una nuova risorsa {assetType}
+assetEditor.createAssetModal.assetPack = Pacchetto di attività
+assetEditor.createAssetModal.assetType = Tipo di attività
+Examples: Wood_Ash_Roots, Zone3_Cloudy_Medium, Battleaxe_Swing_Left
+
+
+
+
+assetEditor.errors.invalidJson = JSON no válido
+assetEditor.createAssetModal.folder = Opuscolo
+assetEditor.createAssetModal.assetId = Identificatore univoco del bene
+assetEditor.createAssetModal.assetIdHelp = Caratteri ammessi: A-Z 0-9 _ "A-Z 0-9
+assetEditor.createAssetModal.copyAsset = Copia attiva
+assetEditor.createAssetModal.tab.properties = Proprietà
+assetEditor.createAssetModal.tab.source = Fonte
+assetEditor.createAssetModal.createButton = Creare
+assetEditor.createAssetModal.assetPackDropdown.noEntries = Creare innanzitutto un nuovo pacchetto di risorse.
+assetEditor.createAssetModal.errors.existingId = Una risorsa con questo identificatore esiste già!
+assetEditor.createAssetModal.errors.invalidAssetType = Tipo di asset non valido
+assetEditor.createAssetModal.errors.noAssetPackSelected = Per creare la risorsa è necessario selezionare un pacchetto di risorse.
+assetEditor.exportModal.title = Attività pubblicate di recente
+assetEditor.exportModal.deselectAllButton = Deselezionare tutti
+assetEditor.exportModal.selectAllButton = Seleziona tutti
+assetEditor.exportModal.exportButton = Selezione dell'esportazione
+assetEditor.exportModal.launcherAssetsWarning = Gli asset non possono essere esportati quando si utilizzano gli asset del launcher!
+assetEditor.exportModal.discardChangesModal.title = Scartare le modifiche?
+assetEditor.exportModal.discardChangesModal.text = Scartare le modifiche da {assetId} ({assetType})
+assetEditor.exportModal.discardChangesModal.confirmButton = Scartare le modifiche
+assetEditor.exportModal.discardChangesCheckBox = Scartare le modifiche sul server dopo l'esportazione
+assetEditor.exportModal.discardChangesCheckBoxDescription = Se questa opzione è attivata, le risorse selezionate saranno ripristinate allo stato originale sul server, caricando nuovamente queste risorse dalla cartella delle risorse. Questo è utile quando il lavoro su alcune risorse è stato completato e sono pronte per essere inviate a un repository, poiché questi file saranno rimossi da questo elenco. Se il server e il client condividono la stessa cartella delle risorse (ad esempio, in modalità giocatore singolo), questa opzione non fa altro che rimuovere queste voci dall'elenco precedente.
+assetEditor.exportModal.discardButtonTooltip = Scartare le modifiche
+assetEditor.exportModal.columns.file = Archivio
+assetEditor.exportModal.columns.lastChangeDate = Ultima modifica
+assetEditor.exportModal.columns.lastChangeUsername = Da
+assetEditor.exportModal.tooltips.deleted = La risorsa è stata rimossa.
+assetEditor.exportModal.tooltips.new = La risorsa è stata creata.
+assetEditor.exportModal.tooltips.renamed = La risorsa è stata rinominata {oldPath}.
+assetEditor.exportModal.tooltips.changed = Le attività sono state modificate.
+assetEditor.filterModal.title = Filtrare per tipo di asset
+assetEditor.filterModal.searchPlaceholder = Ricerca classi di attività
+assetEditor.iconMassExportModal.title = Esportazione massiva delle icone degli articoli
+assetEditor.iconMassExportModal.startButton = Avviare l'esportazione
+assetEditor.iconMassExportModal.statusLabel = Stato:
+assetEditor.iconMassExportModal.iconSize = Dimensione dell'icona
+assetEditor.iconMassExportModal.starting = A partire...
+assetEditor.iconMassExportModal.status = {completeCount}/{totalCount} - {percentage}% - {failedCount} Fallito - {skippedCount} Omesso
+assetEditor.errors.invalidAssetsDirectory = Una cartella delle risorse valida deve contenere una cartella Server e una cartella Common.
+assetEditor.errors.failedToFetchAsset = Non è stato possibile recuperare la risorsa "{path}".
+assetEditor.errors.failedToFetchParent = Si è verificato un errore durante il recupero di una risorsa importante.
+assetEditor.errors.recursiveParent = Non è stato possibile caricare l'asset perché alcuni asset principali si riferiscono l'uno all'altro (dipendenza ciclica).
+assetEditor.errors.errorOccurredFetching = Si è verificato un errore durante il recupero di questa risorsa.
+assetEditor.errors.assetNotFound = Questo bene non esiste.
+assetEditor.errors.unknownAssetType = Tipo di bene sconosciuto "{assetType}".
+assetEditor.errors.fileFormatNotSupported = Questo formato di file non è supportato.
+assetEditor.errors.invalidAssetType = Tipo di asset non valido
+assetEditor.errors.missingId = Inserire un identificatore.
+assetEditor.errors.failedExportErrors = Non è stato possibile esportare le risorse perché alcune di esse contengono errori di convalida.
+assetEditor.errors.failedToSetupAssetTypes = Non è stato possibile configurare i tipi di asset.
+assetEditor.errors.failedToLoadAssetFiles = Non è stato possibile caricare i file delle risorse.
+
+
+
+
+
+
+
+
+assetEditor.errors.failedToLoadCommonAssetFiles = Non è stato possibile caricare i file delle risorse comuni.
+assetEditor.errors.failedToRenameAsset = Non è stato possibile modificare il nome dell'asset.
+assetEditor.errors.failedToDeleteAsset = Non è stato possibile rimuovere la risorsa.
+assetEditor.errors.failedToCreateAsset = Non è stato possibile creare la risorsa.
+assetEditor.errors.assetTypeNotSetupForEditor = Questo tipo di risorsa non è configurato per essere modificato dall'interfaccia dell'editor.
+assetEditor.errors.createDirectoryInvalidPath = Non è stato possibile creare la directory perché non si trova nella directory delle risorse.
+assetEditor.errors.createDirectoryExists = Non è stato possibile creare la directory perché già esistente.
+assetEditor.errors.createDirectoryOther = Non è stato possibile creare la directory.
+assetEditor.errors.renameDirectoryInvalidPath = Non è stato possibile rinominare la directory perché non si trova nella directory delle risorse.
+assetEditor.errors.renameDirectoryExists = Non è stato possibile rinominare la directory perché esiste già una directory con lo stesso nome.
+assetEditor.errors.renameDirectoryMissing = Non è stato possibile rinominare la directory perché la directory da rinominare non esiste.
+assetEditor.errors.renameDirectoryOther = Non è stato possibile rinominare la directory.
+assetEditor.errors.deleteDirectoryInvalidPath = Non è stato possibile eliminare la directory perché non si trova nella directory delle risorse.
+assetEditor.errors.deleteDirectoryMissing = Non è stato possibile eliminare la directory perché non esiste.
+assetEditor.errors.deleteDirectoryOther = Non è stato possibile eliminare la directory.
+assetEditor.errors.directoryInvalidCharacters = I nomi delle directory non possono includere caratteri come / o /.
+assetEditor.errors.exportInProgress = L'esportazione è ancora in corso.
+assetEditor.errors.cannotRevealUnexportedAsset = Il file non può essere visualizzato nel browser perché non è ancora stato esportato.
+assetEditor.errors.cannotPasteWrongType = Impossibile incollare il valore: tipo non valido.
+assetEditor.messages.assetExport.success = Le risorse {count} sono state salvate.
+assetEditor.messages.assetExport.none = Non è stato salvato alcun bene.
+assetEditor.messages.assetExport.errors = Non è stato possibile salvare le risorse perché alcune di esse contengono errori.
+assetEditor.messages.assetExport.failedSaving = Le attività non sono state salvate.
+assetEditor.messages.undoStackEmpty = Non c'è nulla da disfare.
+assetEditor.messages.redoStackEmpty = Non c'è nulla da rifare.
+assetEditor.messages.directoryDeleted = La directory è stata eliminata con successo.
+assetEditor.messages.directoryCreated = La directory è stata creata con successo.
+assetEditor.unexportedAssetsModal.quitTitle = Uscire dal cliente?
+assetEditor.unexportedAssetsModal.continueTitle = Continuare?
+assetEditor.unexportedAssetsModal.text = Ci sono modifiche non esportate nell'editor delle risorse.
+assetEditor.unexportedAssetsModal.quitButton = Uscire comunque
+assetEditor.unexportedAssetsModal.continueButton = Continua comunque
+assetEditor.diagnosticsTooltip.errors = Errori:
+assetEditor.diagnosticsTooltip.warnings = Avvertenze:
+assetEditor.diagnosticsTooltip.hasChildErrors = Alcune proprietà secondarie contengono errori.
+assetEditor.diagnosticsTooltip.hasChildWarnings = Alcune proprietà secondarie contengono avvertenze.
+assetEditor.configEditor.errors.failedToLoad = Non è stato possibile caricare l'editor. Vedere il log per i dettagli.
+assetEditor.configEditor.showAllProperties = Mostra tutte le proprietà
+assetEditor.tabs.popup.close = Chiudere
+assetEditor.tabs.popup.closeAll = Chiudere tutti
+assetEditor.tabs.popup.copyId = Copia ID
+assetEditor.weatherDaytimeBar.togglePauseTime = Tempo di pausa/interruzione
+assetEditor.weatherDaytimeBar.previousDay = Impostato come il giorno precedente
+assetEditor.weatherDaytimeBar.nextDay = Regolare il giorno successivo
+assetEditor.weatherDaytimeBar.lockTimeAndWeather = Fare clic per alternare il mantenimento dell'ora e del tempo corrente anche dopo l'uscita dall'editor delle risorse.
+assetEditor.weatherDaytimeBar.currentDay = Giorno {day, number}
+assetEditor.initializeButton.inactive = Inizializza l'oggetto
+assetEditor.initializeButton.active = Eliminare l'oggetto
+assetEditor.fileSaveStatus.Saved = Modifiche salvate
+assetEditor.fileSaveStatus.Saving = Salvare le modifiche...
+
+
+\n\
+Pack: {pack}
+
+
+\n\
+Zipped asset packs cannot be edited, only directory based asset packs can be edited.\n\
+\n\
+You can override assets through a custom asset pack.
+
+The property editor currently does not fully support inheritance and will only show you the properties defined in this asset. \n\n\
+Properties that use a value from the parent asset are marked with a *.
+
+
+
+\n\
+WARNING: This is a DANGEROUS operation!\n\
+\n\
+• All assets within this pack will be permanently deleted\n\
+• Deleting an asset pack at runtime can lead to unexpected behavior, crashes, or data corruption\n\
+• Any references to assets in this pack from other packs will become broken\n\
+• This action cannot be undone\n\
+\n\
+Only proceed if you fully understand the consequences.
+
+# === auth ===
+# === bench ===
+assetEditor.fileSaveStatus.Unsaved = Modifiche non salvate
+assetEditor.options.title = Opzioni
+assetEditor.options.disconnect = Disconnettersi dal server
+assetEditor.options.exportItemIcons = Icone di esportazione degli articoli
+assetEditor.options.settings = Configurazione
+assetEditor.tabs.tooltip = {type} Attivo
+assetEditor.packModal.title.edit = Modifica del pacchetto
+assetEditor.packModal.title.add = Aggiungi pacchetto
+assetEditor.packModal.readOnlyMessage = Questo pacchetto è di sola lettura e non può essere modificato.
+assetEditor.packModal.editModeNote = La modifica del nome o del gruppo di un bundle di risorse avrà effetto solo dopo il riavvio del server.
+assetEditor.packModal.identifierChangeWarning = ATTENZIONE: Si sta modificando l'identificatore del pacchetto (nome o gruppo). Questa modifica avrà effetto immediato, ma potrebbe causare un comportamento inatteso in fase di esecuzione. Le risorse che fanno riferimento a questo pacchetto potrebbero smettere di funzionare correttamente fino al riavvio del server.
+assetEditor.packModal.field.name = Nome
+assetEditor.packModal.field.name.placeholder = Nome del pacchetto (un identificatore unico per il pacchetto)
+assetEditor.packModal.field.group = Gruppo
+assetEditor.packModal.field.group.placeholder = Gruppo di imballaggio (ad esempio il suo nome)
+assetEditor.packModal.field.version = Versione
+assetEditor.packModal.field.version.placeholder = 1.0.0 (semver)
+assetEditor.packModal.field.website = Sito web
+assetEditor.packModal.field.website.placeholder = URL del sito web (facoltativo)
+assetEditor.packModal.field.description = Descrizione
+assetEditor.packModal.field.description.placeholder = Descrizione del pacchetto (opzionale)
+assetEditor.packModal.field.authors = Autori
+assetEditor.packModal.authors.add = + Aggiungi
+assetEditor.packModal.authors.empty = Non sono stati aggiunti autori.
+assetEditor.packModal.authors.entry = Autore
+assetEditor.packModal.authors.name.placeholder = Nome
+assetEditor.packModal.authors.email.placeholder = E-mail (opzionale)
+assetEditor.packModal.authors.url.placeholder = URL (opzionale)
+assetEditor.packModal.button.save = Salva
+assetEditor.packModal.errors.nameRequired = Il nome del pacchetto è obbligatorio.
+assetEditor.packModal.errors.groupRequired = È necessario un gruppo di imballaggio.
+assetEditor.packModal.errors.versionRequired = Versione richiesta
+assetEditor.packModal.errors.versionInvalid = Formato di versione non valido. Utilizzare un sistema di versioning semantico (ad esempio 1.0.0, 2.1.3-beta, 1.0.0+build123).
+assetEditor.readOnlyAssetBar.message = Questa risorsa è di sola lettura e non può essere modificata, poiché il pacchetto di risorse è di sola lettura.
+assetEditor.readOnlyAssetBar.overrideButton = Esclusione attiva
+assetEditor.readOnlyAssetBar.tooltip = Questa risorsa non può essere modificata perché il pacchetto di risorse in cui si trova è di sola lettura.
+assetEditor.inheritanceWarning.message = Attenzione: questa risorsa ha un elemento principale e l'ereditarietà non è ancora supportata dall'editor di proprietà.
+assetEditor.inheritanceWarning.tooltip = Questo asset eredita le proprietà da un altro asset (specificato nella proprietà "Parent").
+assetEditor.managePacksMenu.editPack = Modifica del pacchetto
+assetEditor.managePacksMenu.addPack = Aggiungi pacchetto
+assetEditor.managePacksMenu.removePack = Eliminare il pacchetto
+assetEditor.confirmationModal.typeToConfirm = Digitare "{value}" per confermare:
+assetEditor.deletePackModal.title = Eliminare il pacchetto di risorse?
+assetEditor.deletePackModal.text = Siete sicuri di voler rimuovere il pacchetto di risorse "{packId}"?
+assetEditor.deletePackModal.confirmButton = Eliminare il pacchetto
+assetEditor.newAssetButton.readOnlyPackTooltip = Non è possibile creare nuovi asset perché il pacchetto di asset selezionato è di sola lettura.
+auth.sessionExpired.title = Sessione scaduta
+auth.sessionExpired.message = Non è stato possibile aggiornare la sessione. Sei passato alla modalità offline. \È possibile continuare a giocare, ma non sarà possibile unirsi ai server o iniziare nuovi mondi finché non si riavvia il gioco.
+bench.Furniture_Bench = Banco da lavoro per mobili
+bench.Builders = Banco da lavoro del costruttore
+
+# === benchCategories ===
+bench.Armor_Bench = Banco da lavoro per armaioli
+bench.Weapon_Bench = Incudine da fabbro
+bench.Workbench = Banco di lavoro
+bench.Farmingbench = Banco di lavoro dell'agricoltore
+bench.Farmingbench_old = Banco da lavoro del contadino (vecchio)
+bench.Cookingbench = Cucina da chef
+bench.Loombench = Telaio
+bench.Armory = Fucina
+bench.Fieldcraft = Tecniche di campo
+bench.Arcanebench = Banco di lavoro dell'arcanista
+bench.Alchemybench = Banco di lavoro dell'alchimista
+bench.Template = Modello
+bench.ArmorBench = Banco da lavoro per armaioli
+bench.Architectsbench = Banco di lavoro dell'architetto
+bench.Fieldcraft_Old = Tecniche di campo (vecchie)
+benchCategories.Furniture_Beds = Letti
+benchCategories.Furniture_Misc = Vari
+benchCategories.Furniture_Gothic = Gotico
+benchCategories.Furniture_Lighting = Illuminazione
+benchCategories.Furniture_Pottery = Ceramica
+benchCategories.Furniture_Textiles = Tessile
+benchCategories.Furniture_Storage = Immagazzinamento
+benchCategories.Furniture_Statues = Statue
+benchCategories.Furniture_Seasonal = Stagionale
+benchCategories.Stairs = Scale
+benchCategories.Ornate = Ornato
+benchCategories.Sign = Firma
+benchCategories.Roof = Tetto
+benchCategories.Decorative = Decorativo
+benchCategories.Wardrobe = Armadio
+benchCategories.Wall = Muro
+benchCategories.Pillar = Pilar
+benchCategories.Shelf = Scaffale
+benchCategories.Bricks = Mattoni
+benchCategories.Trapdoor = Portello
+benchCategories.Gate = Cancello
+benchCategories.Smooth = Morbido
+benchCategories.Structural-Rock = Roccia strutturale
+benchCategories.Platform = Piattaforma
+benchCategories.Window = Finestra
+benchCategories.Beam = Fascio
+benchCategories.SmoothHalfSlab = Mezza lastra liscia
+benchCategories.HalfSlab = Mezza lastra
+benchCategories.Table = Tabella
+benchCategories.Stool = Sgabello
+benchCategories.Chair = Sedia
+benchCategories.Door = Porta
+benchCategories.Ladder = Scala
+benchCategories.Armor_Hands = Le mani
+benchCategories.Armor_Legs = Gambe
+# === builderTools ===
+
+
+
+benchCategories.Armor_Head = Testa
+benchCategories.Armor_Chest = Petto
+benchCategories.Weapon_Shield = Stemma
+benchCategories.Weapon_Daggers = Pugnali
+benchCategories.Weapon_Sword = Spada
+benchCategories.Weapon_Bow = Arco
+benchCategories.Weapon_Club = Club
+benchCategories.Weapon_Axe = Ascia
+benchCategories.Weapon_Mace = Mazza
+benchCategories.Weapon_Battleaxe = Ascia da battaglia
+benchCategories.Weapon_Longsword = Spada lunga
+benchCategories.Workbench_Tools = Strumenti
+benchCategories.Workbench_Weapons = Armi
+benchCategories.Workbench_Tinkering = Ritocco
+benchCategories.Workbench_Crafting = Fabbricazione
+benchCategories.Workbench_Farming = Agricoltura
+benchCategories.Seeds = Semi
+benchCategories.Other = Altro
+benchCategories.Saplings = Arbolitos
+benchCategories.All = Tutti
+benchCategories.Prepared = Preparato
+benchCategories.Baked = Panificazione
+benchCategories.Weapons = Armi
+benchCategories.Tools = Strumenti
+benchCategories.Arcane_Misc = Vari
+benchCategories.Arcane_Portals = Portali
+benchCategories.Alchemy_Potions = Pozioni
+benchCategories.Alchemy_Bombs = Pompe
+benchCategories.Template = Modello
+builderTools.name = Strumenti per i costruttori
+builderTools.selectTool = Selezionare lo strumento
+builderTools.useTool = Utilizzare lo strumento
+builderTools.canNotUse = Non è possibile utilizzare strumenti di costruzione al di fuori della modalità Creativa!
+builderTools.selectATool = Fare clic con il tasto sinistro del mouse su uno strumento di costruzione nell'inventario o nella barra di accesso rapido per configurarlo.
+builderTools.noToolSettings = Questo strumento non richiede alcuna configurazione.
+builderTools.favorites.nameTitle = Nome dello strumento preferito
+builderTools.favorites.nameDescription = Inserire un nome per questo strumento preferito.
+builderTools.settings.ToolReachDistance.name = Distanza di raggiungimento dell'utensile
+builderTools.settings.ToolReachDistance.description = Specifica la distanza massima (o bloccata) da utilizzare per gli strumenti.
+builderTools.settings.ToolDelayMin.name = Ritardo minimo dell'utensile
+builderTools.settings.ToolDelayMin.description = Specifica il ritardo minimo (in ms) consentito tra ogni utilizzo dello strumento.
+builderTools.settings.EnableBrushShapeRendering.name = Rendering della forma del pennello
+builderTools.settings.EnableBrushShapeRendering.description = Alterna il rendering del pennello tra la forma a blocchi e il wireframe standard.
+builderTools.settings.BrushOpacity.name = Opacità del pennello
+builderTools.settings.BrushOpacity.description = Controlla l'opacità degli strumenti pennello renderizzati.
+builderTools.settings.SelectionOpacity.name = Opacità della selezione
+builderTools.settings.SelectionOpacity.description = Controlla l'opacità dello strumento di selezione renderizzato.
+builderTools.settings.SelectionPanelOpacity.name = Opacità del pannello di selezione
+builderTools.settings.SelectionPanelOpacity.description = Controlla l'opacità dei pannelli degli strumenti di selezione trascinabili.
+builderTools.settings.FlightInertia.name = Inerzia del volo
+
+
+
+builderTools.settings.FlightInertia.description = Aggiunge slancio e decelerazione graduale al volo creativo (0 = arresto istantaneo, 100 = deriva massima).
+builderTools.settings.FlightMode.name = Modalità aereo
+builderTools.settings.FlightMode.description = Scegliete se rimanere in aria o volare verso la direzione della telecamera.
+builderTools.settings.DisplayLegend.name = Legenda dello schermo
+builderTools.settings.DisplayLegend.description = Mostra o nasconde il pannello di legenda degli strumenti di costruzione con i suggerimenti di controllo.
+builderTools.settings.NoClip.name = Nessuna clip
+builderTools.settings.NoClip.description = Disattiva il rilevamento delle collisioni durante il volo, consentendo di volare attraverso i blocchi.
+builderTools.settings.AirPlacement.name = Posizionamento dell'aria
+builderTools.settings.AirPlacement.description = Consente di posizionare i blocchi in aria da lontano senza bisogno di un supporto.
+builderTools.settings.AllowNPCDetection.name = Abilita il rilevamento dei PNG
+builderTools.settings.AllowNPCDetection.description = Se attivata, i PNG possono rilevare e reagire all'utente mentre è in modalità Creativa.
+builderTools.settings.RespondToHit.name = Rispondere al colpo
+builderTools.settings.RespondToHit.description = Se attivata, è possibile ricevere il knockback e altri effetti dei colpi mentre si è invincibili in modalità Creativa.
+builderTools.settings.BrushShapeRendering.name = Rendering del blocco di pennelli
+builderTools.settings.BrushShapeRendering.description = Alterna l'anteprima del pennello tra lo stile wireframe e lo stile blocco.
+builderTools.settings.FlightSpeedMultiplier.description = Regolare la velocità di volo e il movimento
+builderTools.settings.BrushSoundsEnabled.description = Abilita o disabilita gli effetti sonori quando si usano gli strumenti pennello.
+builderTools.settings.BrushSoundVolume.description = Regolazione del volume degli effetti sonori dello strumento pennello
+builderTools.settings.HideHud.description = Nascondere tutti gli elementi dell'HUD
+builderTools.settings.HideHotbar.description = Nascondere la barra di accesso rapido in modalità creativa
+builderTools.settings.HideCompass.description = Nascondere la bussola in modalità creativa
+builderTools.settings.HideNotifications.description = Nascondere le notifiche in modalità creativa
+builderTools.settings.HideChat.description = Nascondere la finestra di chat in modalità creativa.
+builderTools.settings.HideHeldItem.description = Nascondere l'oggetto in mano mentre si è in modalità Creativa.
+builderTools.settings.ShowEntityMarkers.description = Visualizzazione dei marcatori di entità in modalità Creativa
+builderTools.settings.Fullbright.description = Attiva la modalità fullbright, che rende tutti i blocchi completamente illuminati indipendentemente dal livello di luce.
+builderTools.panel.settings = Configurazione
+builderTools.panel.brushes = Spazzole
+builderTools.panel.brushSettings = Spazzole
+builderTools.panel.generalSettings = Configurazione generale
+builderTools.panel.maskSettings = Configurazione della maschera
+builderTools.panel.quickSettings = Configurazione
+builderTools.quickSettings.title = Impostazioni rapide della modalità creativa
+builderTools.panel.clearSelection = Cancella la selezione
+builderTools.panel.enableEmptyFilter = Abilitare il filtro "Vuoto
+builderTools.panel.invertEntireMask = Invertire l'intera maschera
+builderTools.panel.useCustomMaskCommandEntry = Utilizzare l'input di comando della maschera personalizzata
+builderTools.replace.materialsToReplace = [Materiali da sostituire:
+builderTools.replace.replaceWith = [TMP] Sostituire con:
+builderTools.legend.title = Leggenda
+builderTools.legend.pickMaterial = Selezionare il materiale
+builderTools.legend.setMask = Imposta come maschera
+builderTools.legend.addMask = Aggiungere alla maschera
+builderTools.legend.changeHeight = Modificare l'altezza della forma
+builderTools.legend.changeWidth = Modificare la larghezza della forma
+builderTools.legend.favoriteMaterials = Materiali preferiti
+builderTools.legend.selectedMaterial = Materiale selezionato
+builderTools.legend.shiftFasterChange = Tenere premuto il tasto Shift per velocizzare le modifiche.
+builderTools.legend.undo = Annulla
+builderTools.legend.redo = Pronto
+
+You can create custom block placement logic using commands and assets like "River Brush", "Mountain Brush", and any other brush you can imagine!
+builderTools.legend.PaintBrush.Page3.CreateBrushesDescription = Per creare i tuoi pennelli personalizzati, dai un'occhiata agli esempi forniti nella directory Assets/MacroCommands/Brushes/ delle risorse. Puoi utilizzare il comando /help del gioco per ottenere ulteriori informazioni su tutte le operazioni di configurazione dei pennelli disponibili. Dovrai anche creare un elemento Paint Brush (Pennello); cerca nella directory Assets/Server/Item/Items/EditorTool/ScriptedBrushes/ esempi di questi elementi.
+
+
+Una scena è un contenitore per il tuo machinima. Contiene tutti gli attori, i fotogrammi chiave e le impostazioni.
+
+1. Trova un buon posto per il tuo machinima\n\
+2. Apri il menu Machinima\n\
+3. Clicca sull'icona + per creare una nuova scena\n\
+4. Aggiungi il tuo primo attore!
+Un attore è un oggetto animabile tramite fotogrammi chiave. Consulta la pagina seguente per vedere i tipi di attori.
+1. Posizionati dove desideri che sia la telecamera\n\
+2. Apri il menu Machinima\n\
+3. Fai clic sull'icona + sotto l'elenco delle scene\n\
+4. Seleziona “Telecamera” dal menu a discesa\n\
+5. Ora puoi fare clic sulla telecamera per riposizionarla e premere C per alternare la visuale della telecamera!
+
+builderTools.legend.addRemoveFavorite = Aggiungere/rimuovere il materiale preferito
+builderTools.legend.alt = Tutti +
+builderTools.legend.shiftalt = Shift + Alt +
+builderTools.legend.shift = Turno +
+builderTools.legend.PaintBrush.Page1.Title = Pennelli di base
+builderTools.legend.PaintBrush.Page1.Description = Lo strumento Pennello consente di posizionare e rimuovere blocchi di forme, dimensioni e materiali diversi.
+builderTools.legend.PaintBrush.Page1.DestroyBlocks = Distruggete i blocchi a cui mirate.
+builderTools.legend.PaintBrush.Page1.PlaceBlocks = Posizionare i blocchi nel punto desiderato, a seconda del materiale scelto.
+builderTools.legend.PaintBrush.Page1.SelectTargetMaterial = Selezionare il materiale specifico
+builderTools.legend.PaintBrush.Page1.AddTargetMaterial = Aggiungere un materiale specifico come multimateriale
+builderTools.legend.PaintBrush.Page1.UndoLastBrush = Annullamento dell'ultima azione del pennello
+builderTools.legend.PaintBrush.Page1.RedoLastUndo = Ripetere l'ultima azione annullata
+builderTools.legend.PaintBrush.Page1.EditInventoryProperties = Modificare i materiali, le dimensioni, la forma e altre proprietà dell'inventario.
+builderTools.legend.PaintBrush.Page1.AirPlacementTitle = Posizionamento dell'aria
+builderTools.legend.PaintBrush.Page1.AirPlacementHotkey = Alterna la modalità di selezione della posizione dell'aria
+builderTools.legend.PaintBrush.Page1.AirPlacementDistanceChange = Modificare la distanza di posizionamento dell'aria
+builderTools.legend.PaintBrush.Page2.Title = Bloccaggio e mascheratura dell'asse
+builderTools.legend.PaintBrush.Page2.AxisLock = Blocco dell'asse
+builderTools.legend.PaintBrush.Page2.AxisLockDescription = Consente di collegare il pennello a una superficie piana, mobile e rotante. I seguenti tasti di scelta rapida consentono di visualizzare, modificare e uscire dalla modalità superficie.
+builderTools.legend.PaintBrush.Page2.ShowSurfaceMoveTool = Mostra lo strumento Sposta superficie
+builderTools.legend.PaintBrush.Page2.ShowSurfaceRotationTool = Mostra lo strumento di rotazione delle superfici
+builderTools.legend.PaintBrush.Page2.UseBrush = Utilizzo di una spazzola
+builderTools.legend.PaintBrush.Page2.ExitAxisLockMode = Uscire dalla modalità di blocco dell'asse
+builderTools.legend.PaintBrush.Page2.BlockMasking = Mascheramento del blocco
+builderTools.legend.PaintBrush.Page2.BlockMaskingDescription = Consente di impostare materiali per il pennello che limitano le modifiche ai blocchi che corrispondono a tali materiali.
+builderTools.legend.PaintBrush.Page2.BrushMenuMaskingTab = Scheda Maschera del menu Pennello
+builderTools.legend.PaintBrush.Page2.MaskConfigDescription = Fare clic sull'icona della matita in alto a destra per passare al pannello "Impostazioni maschera". Qui è possibile creare maschere più complesse utilizzando gli elementi dell'inventario. Per ulteriori informazioni, passare il mouse sui termini nel pannello dell'interfaccia utente.
+builderTools.legend.PaintBrush.Page3.Title = Spazzole programmabili / Posizionamento dell'aria
+builderTools.legend.PaintBrush.Page3.Description = Spazzole programmabili
+builderTools.legend.PaintBrush.Page3.TestingBrushesTitle = Test di sviluppo della spazzola
+builderTools.legend.PaintBrush.Page3.TestingBrushesDescription = Usare "/sb load" per aprire un'interfaccia utente e sfogliare tutti i pennelli scriptati disponibili, oppure "/sb load <nome>" per caricare direttamente un pennello specifico. Questo permette di testare i pennelli senza dover prima creare un oggetto. Usate "/sb clear" per disattivarlo quando avete finito.
+builderTools.legend.LineBrush.Page1.Title = Spazzola di linea
+builderTools.legend.LineBrush.Page1.Description = Permette di costruire linee rette di blocchi.
+builderTools.legend.LineBrush.Page1.StartOrAddPoint = Iniziare o aggiungere un punto alla linea
+builderTools.legend.LineBrush.Page1.CancelLine = Cancella linea
+builderTools.legend.LineBrush.Page1.SnapToAngles = Tenere premuto per attivare la regolazione su diversi angoli di 45°.
+builderTools.legend.LineBrush.Page1.EditInventoryProperties = Modificare materiali, dimensioni e altre proprietà dall'inventario.
+builderTools.legend.MachinimaTool.Page1.Title = Introduzione
+builderTools.legend.MachinimaTool.Page1.Description = Create animazioni keyframe utilizzando attori, telecamere, particelle, suoni e altro ancora! Perfetto per le cinematiche e le scene di gioco.
+builderTools.legend.MachinimaTool.Page1.OpensMenu = Apertura dell'interfaccia utente dell'editor di Machinima
+builderTools.legend.MachinimaTool.Page1.BaseCommand = Comando base per tutte le operazioni di machinima
+builderTools.legend.MachinimaTool.Page1.Scenes = Scene
+builderTools.legend.MachinimaTool.Page1.CreatingFirstScene = Creare la prima scena
+builderTools.legend.MachinimaTool.Page1.Actors = Attori
+builderTools.legend.MachinimaTool.Page1.AddingCameraActor = Aggiungi un attore cameraman
+builderTools.legend.MachinimaTool.Page2.Title = Tipi di attori
+builderTools.legend.MachinimaTool.Page2.Description = I diversi tipi di attori svolgono funzioni diverse nel machinima. Sono tutti oggetti animabili che consentono di controllare la posizione, la rotazione e altri valori. Gli attori si aggiungono attraverso il menu Machinima.
+builderTools.legend.MachinimaTool.Page2.CameraHeader = Macchina fotografica
+builderTools.legend.MachinimaTool.Page2.CameraDesc = Permette di spostare una telecamera lungo traiettorie e di animare varie impostazioni, come il campo visivo (FOV) e la velocità.
+builderTools.legend.MachinimaTool.Page2.EntityHeader = Entità
+Types: camera, entity, player, ref, item
+
+
+
+Tenere premuto il tasto SHIFT per regolare le superfici a distanza.\n\
+Tenere premuto il tasto ALT per ignorare la regolazione delle superfici.
+
+
+builderTools.legend.MachinimaTool.Page2.EntityDesc = Personaggi animati con modelli. Supporta la rotazione del corpo e della testa e gli eventi di animazione.
+builderTools.legend.MachinimaTool.Page2.PlayerHeader = Giocatore
+builderTools.legend.MachinimaTool.Page2.PlayerDesc = Simile a Entità, si riferisce al giocatore locale.
+builderTools.legend.MachinimaTool.Page2.ReferenceHeader = Riferimento
+builderTools.legend.MachinimaTool.Page2.ReferenceDesc = Punti di riferimento invisibili. Utili per impostare obiettivi e posizioni di riferimento. Consentono di impostare i bersagli della telecamera su punti di tracciamento.
+builderTools.legend.MachinimaTool.Page2.ItemHeader = Articolo
+builderTools.legend.MachinimaTool.Page2.ItemDesc = Visualizza elementi nel mondo. Può essere posizionato e animato.
+builderTools.legend.MachinimaTool.Page2.AddActorCommand = Comando: .mach actor add [tipo] [nome] [nome].
+builderTools.legend.MachinimaTool.Page3.Title = Controlli di riproduzione
+builderTools.legend.MachinimaTool.Page3.Description = I controlli di riproduzione consentono di visualizzare l'anteprima della scena animando tutti gli attori lungo i loro percorsi di fotogrammi chiave. Si possono usare per scorrere il tempo, saltare tra i fotogrammi chiave e testare le animazioni. Ogni fotogramma aggiorna tutti gli attori lungo i loro percorsi dei fotogrammi chiave, eseguendo le animazioni.
+builderTools.legend.MachinimaTool.Page3.TogglePause = Alterna riproduzione/pausa
+builderTools.legend.MachinimaTool.Page3.ContinuousPlayback = Attiva la riproduzione continua (loop)
+builderTools.legend.MachinimaTool.Page3.AutoRestart = Attivare il riavvio automatico alla fine della scena
+builderTools.legend.MachinimaTool.Page3.RestartScene = Riavviare la scena dall'inizio
+builderTools.legend.MachinimaTool.Page3.EndScene = Salto al fotogramma finale
+builderTools.legend.MachinimaTool.Page3.NavigationTitle = Navigazione su telaio:
+builderTools.legend.MachinimaTool.Page3.FrameScrub = Scorrere i fotogrammi (tenere premuto per la riproduzione continua)
+builderTools.legend.MachinimaTool.Page3.JumpKeyframe = Salto al punto chiave precedente/successivo
+builderTools.legend.MachinimaTool.Page3.SpeedModifiers = Tenere premuto il tasto SHIFT per raddoppiare la velocità e il tasto ALT per dimezzarla.
+builderTools.legend.MachinimaTool.Page4.Title = Modifica dei fotogrammi chiave
+builderTools.legend.MachinimaTool.Page4.Description = I fotogrammi chiave definiscono la posizione, la rotazione e la configurazione di un attore in momenti specifici. Il sistema interpola i fotogrammi chiave per creare percorsi di animazione fluidi. Aggiungete i fotogrammi chiave per creare il movimento e modificateli per regolare i tempi e il posizionamento.
+builderTools.legend.MachinimaTool.Page4.AddKeyframe = Aggiungere un nuovo keyframe alla fine della traccia dell'attore, estendendo l'animazione.
+builderTools.legend.MachinimaTool.Page4.AddAtCurrentFrame = Inserisce un keyframe nella posizione di riproduzione corrente.
+builderTools.legend.MachinimaTool.Page4.CopyKeyframe = Copia le impostazioni del keyframe selezionato per incollarle in un altro attore o fotogramma.
+builderTools.legend.MachinimaTool.Page4.DeleteKeyframe = Elimina il keyframe su cui si sta passando il mouse.
+builderTools.legend.MachinimaTool.Page4.EditKeyframe = Aprire il dispositivo per regolare la posizione e la rotazione del keyframe.
+builderTools.legend.MachinimaTool.Page4.MoveActor = Riposizionare l'intera carriera dell'attore come un tutt'uno.
+builderTools.legend.MachinimaTool.Page4.EditFrameTime = Cambia il momento in cui questo keyframe appare sulla timeline.
+builderTools.legend.MachinimaTool.Page4.AdjustFrameTime = Sincronizzazione in avanti o indietro dei fotogrammi chiave
+builderTools.legend.MachinimaTool.Page5.Title = Interazioni con i topi
+builderTools.legend.MachinimaTool.Page5.Description = Fare clic sui nodi keyframe nel mondo per interagire:
+builderTools.legend.MachinimaTool.Page5.SelectKeyframe = Selezionare il fotogramma chiave (entrare in modalità Free Motion)
+builderTools.legend.MachinimaTool.Page5.JumpToKeyframe = Impostare come attivo e saltare al fotogramma
+builderTools.legend.MachinimaTool.Page5.GizmoTitle = Controlli del Gizmo:
+builderTools.legend.MachinimaTool.Page5.TranslationGizmo = Traduzione Gizmo aperta (bloccata dagli assi)
+builderTools.legend.MachinimaTool.Page5.RotationGizmo = Dispositivo di rotazione aperto (testa/corpo)
+builderTools.legend.MachinimaTool.Page5.FreeMoveTitle = Modalità di movimento libero:
+builderTools.legend.MachinimaTool.Page5.FreeMoveDescription = Cliccare con il tasto sinistro per confermare la posizione, con il tasto destro per annullare.
+builderTools.legend.MachinimaTool.Page6.Title = Modalità di selezione
+builderTools.legend.MachinimaTool.Page6.Description = Le modalità di selezione determinano gli spostamenti quando si utilizzano gli strumenti di trasformazione. Scegliere la modalità appropriata a seconda di ciò che si desidera riposizionare.
+builderTools.legend.MachinimaTool.Page6.CycleMode = Passare da una modalità di selezione all'altra
+builderTools.legend.MachinimaTool.Page6.KeyframeModeTitle = Modalità Keyframe (predefinita)
+builderTools.legend.MachinimaTool.Page6.KeyframeModeDesc = Sposta solo il keyframe selezionato. Si usa per effettuare regolazioni fini in singoli punti del percorso di un attore senza influenzare gli altri keyframe.
+builderTools.legend.MachinimaTool.Page6.ActorModeTitle = Modalità attore
+builderTools.legend.MachinimaTool.Page6.ActorModeDesc = Sposta tutti i fotogrammi chiave dell'attore selezionato contemporaneamente. L'intero percorso si muove come un'unità, conservando la forma dell'animazione.
+builderTools.legend.MachinimaTool.Page6.SceneModeTitle = Modalità scena
+builderTools.legend.MachinimaTool.Page6.SceneModeDesc = Sposta l'intera origine della scena, spostando tutti gli attori e le loro traiettorie insieme. Utile per trasferire l'intero machinima in un'area diversa.
+builderTools.legend.MachinimaTool.Page7.Title = Visualizzazione e origine
+builderTools.legend.MachinimaTool.Page7.DisplayTitle = Visualizzazione alternata:
+builderTools.legend.MachinimaTool.Page7.ToggleDisplay = Alterna la visualizzazione dell'editor in sovrimpressione
+
+
+Event types: animation, camera, command, particle, target
+
+
+builderTools.legend.MachinimaTool.Page7.TogglePathNodes = Alterna la visibilità del nodo di percorso
+builderTools.legend.MachinimaTool.Page7.ToggleCamera = Attivare/disattivare l'attore della telecamera
+builderTools.legend.MachinimaTool.Page7.ToggleFrustum = Alterna la visualizzazione del frustolo della telecamera
+builderTools.legend.MachinimaTool.Page7.OriginTitle = Controlli dell'origine della scena:
+builderTools.legend.MachinimaTool.Page7.GoToOrigin = Teletrasporto all'origine della scena
+builderTools.legend.MachinimaTool.Page7.SetOrigin = Imposta l'origine della scena nella posizione del giocatore.
+builderTools.legend.MachinimaTool.Page7.OffsetToOrigin = Sposta l'intera scena nella posizione del giocatore.
+builderTools.legend.MachinimaTool.Page8.Title = Strade e curve
+builderTools.legend.MachinimaTool.Page8.Description = Scegliere come interpolare i fotogrammi chiave:
+builderTools.legend.MachinimaTool.Page8.LinearHeader = Lineare (predefinito)
+builderTools.legend.MachinimaTool.Page8.LinearDesc = Linee rette tra i fotogrammi chiave. Movimento semplice e prevedibile.
+builderTools.legend.MachinimaTool.Page8.BezierHeader = Bezier
+builderTools.legend.MachinimaTool.Page8.BezierDesc = Curve morbide con controlli che possono essere trascinati per modellare il percorso.
+builderTools.legend.MachinimaTool.Page8.SplineHeader = Scanalatura
+builderTools.legend.MachinimaTool.Page8.SplineDesc = Curve morbide automatiche che passano attraverso tutti i fotogrammi chiave.
+builderTools.legend.MachinimaTool.Page8.BezierCommands = Comandi di percorso:
+builderTools.legend.MachinimaTool.Page8.EnableBezier = Abilitare Bézier
+builderTools.legend.MachinimaTool.Page8.SmoothBezier = Maniglie lisce
+builderTools.legend.MachinimaTool.Page8.EnableSpline = Abilita la spline
+builderTools.legend.MachinimaTool.Page9.Title = Comandi della console
+builderTools.legend.MachinimaTool.Page9.SceneCommands = Scena: scena .mach [elenca | aggiungi | cancella | salva | carica | copia | imposta | rinomina | ruota | cancella].
+builderTools.legend.MachinimaTool.Page9.ActorCommands = Attore: .mach actor [list | add | delete | configure | model | move | clone | rotate | scale | delete].
+builderTools.legend.MachinimaTool.Page9.EventCommands = Eventi: evento .mach [elenco | aggiungi | rimuovi].
+builderTools.legend.MachinimaTool.Page9.FileCommands = File: .mach save | load | files | zip | autosave [secondi].
+builderTools.legend.MachinimaTool.Page9.UtilityCommands = Utilità: .mach tool | fps [valore] | velocità [valore] | align | demo [1-7] | restart
+builderTools.legend.PasteTool.Page1.Title = Spazzola per l'incollaggio di parti prefabbricate
+builderTools.legend.PasteTool.Page1.Description = Consente di incollare rapidamente i prefabbricati come se si stesse usando un pennello. È compatibile con la maggior parte delle funzioni del pennello.
+builderTools.legend.PasteTool.Page1.LoadPrefabOrCopy = Caricare un prefabbricato o copiare una selezione
+builderTools.legend.PasteTool.Page1.UseSelectionContents = Per utilizzare il contenuto di una selezione, effettuare una selezione con lo strumento selezione e digitare "/copia", quindi tornare allo strumento incolla per utilizzare la copia.
+builderTools.legend.PasteTool.Page1.OpensPrefabList = Aprire l'elenco dei prefabbricati; fare clic su un prefabbricato per caricarlo.
+builderTools.legend.PasteTool.Page1.PastePrefab = Incolla prefabbricato; tieni premuto per dipingere prefabbricato
+builderTools.legend.PasteTool.Page1.StickPrefab = Collegare il prefabbricato al bersaglio o staccarlo se è già attaccato.
+builderTools.legend.PasteTool.Page1.RotatePrefabY = Ruota intorno a Y
+builderTools.legend.PasteTool.Page1.RotatePrefabX = Ruota intorno a X
+builderTools.legend.PasteTool.Page1.RotatePrefabZ = Ruota intorno a Z
+builderTools.legend.PasteTool.Page1.ShowTexture = Texture di blocco alternativa
+builderTools.legend.PasteTool.Page1.CycleOrigin = Origine del ciclo (fondo/centro/alto)
+builderTools.legend.PasteTool.Page2.Title = Modificare le password
+builderTools.legend.PasteTool.Page2.ShiftPrefabLeftRight = Spostare i prefabbricati a destra o a sinistra
+builderTools.legend.PasteTool.Page2.ShiftPrefabForwardBackward = Spostare l'unità prefabbricata in avanti o indietro.
+builderTools.legend.PasteTool.Page2.ShiftPrefabUp = Spostare i prefabbricati verso l'alto
+builderTools.legend.PasteTool.Page2.ShiftPrefabDown = Spostare il prefabbricato in basso
+builderTools.legend.PasteTool.Page2.RotatePrefabLeftRight = Girevole prefabbricato a destra o a sinistra
+builderTools.legend.PasteTool.Page2.RollPrefabLeftRight = Girevole prefabbricato a destra o a sinistra
+builderTools.legend.PasteTool.Page2.RollPrefabForwardBackward = Sposta il prefabbricato in avanti o indietro.
+builderTools.legend.PasteTool.Page2.ResetShifting = Cambiamento di reset
+builderTools.legend.SculptBrush.Page1.Title = Pennello per scolpire
+builderTools.legend.SculptBrush.Page1.Description = Permette di alzare e abbassare il terreno per scolpire e sfumare le forme con maggiore precisione. Supporta la maggior parte delle funzioni del pennello.
+builderTools.legend.SculptBrush.Page1.MeltAwayBlocks = Fondere i blocchi nel punto desiderato, strato per strato.
+builderTools.legend.SculptBrush.Page1.RaiseLayer = Sollevare uno strato di blocchi nel punto in cui si mira.
+
+- /set [Sets selection to blocks]\n\
+- /clear [Clears all blocks in the selection]\n\
+- /walls [Adds walls to selection]\n\
+- /move [Moves the contents of the selection the direction you're facing]\n\
+- /undo and /redo [Undo and Redo X times]\n\
+- /copy [Copies the selection to clipboard]\n\
+- /cut [Cuts the selection to clipboard]\n\
+- /paste [Pastes clipboard at your position]\n\
+- /stack [Stacks the selection in the direction you're facing X times]\n\
+- /replace [Replace one material with another]\n\
+- /hollow [Hollows out a shape leaving the center empty]\n\
+- /flip [Mirror the blocks in the direction you're looking]\n\
+- /rotate [Rotate the selection]\n\
+- /expand [Expand the selection in the direction you're looking]\n\
+- /contract [Shrink the selection by a distance]\n\
+- /deselect [Clear the selection box]
+
+
+builderTools.legend.SculptBrush.Page1.Smooth = Terreno irregolare liscio
+builderTools.legend.SculptBrush.Page1.MaterialSelectedDescription = Quando si seleziona un materiale, si posiziona uno strato di quel materiale nel punto in cui è stato selezionato.
+builderTools.legend.SculptBrush.Page1.SelectTargetMaterial = Selezionare il materiale specifico
+builderTools.legend.SculptBrush.Page1.UndoLastBrush = Annullamento dell'ultima azione del pennello
+builderTools.legend.SculptBrush.Page1.RedoLastUndo = Ripetere l'ultima azione annullata
+builderTools.legend.SculptBrush.Page1.EditInventoryProperties = Modificare i materiali, le dimensioni, la forma e altre proprietà dell'inventario.
+builderTools.legend.SelectionTool.Page1.Title = Selezioni di base
+builderTools.legend.SelectionTool.Page1.CreatingSelection = Creazione di una selezione:
+builderTools.legend.SelectionTool.Page1.HoldAndDrag = 1. Tenere premuto e trascinare per selezionare il primo asse, quindi rilasciare.
+builderTools.legend.SelectionTool.Page1.AdjustAndClick = 2. Regolare il mouse e fare nuovamente clic per impostare la terza dimensione.
+builderTools.legend.SelectionTool.Page1.ClearSelection = Cancella la selezione
+builderTools.legend.SelectionTool.Page1.ClickDragPanels = Fare clic e trascinare nei pannelli di selezione.
+builderTools.legend.SelectionTool.Page1.ChangeSelectionSize = Modifica delle dimensioni della selezione
+builderTools.legend.SelectionTool.Page1.MoveSelection = Selezione del movimento
+builderTools.legend.SelectionTool.Page1.ExtrudeFace = Estrusione della faccia
+builderTools.legend.SelectionTool.Page1.MultipleSelections = Selezioni multiple:
+builderTools.legend.SelectionTool.Page1.NextSelection = Selezione successiva
+builderTools.legend.SelectionTool.Page1.PreviousSelection = Selezione precedente
+builderTools.legend.SelectionTool.Page1.SetRedPoint = Impostare il punto rosso come bersaglio
+builderTools.legend.SelectionTool.Page1.SetGreenPoint = Impostazione del punto verde come obiettivo
+builderTools.legend.SelectionTool.Page2.Title = Copiare / Spostare / Ruotare
+builderTools.legend.SelectionTool.Page2.WithSelectionCreated = Con una selezione creata:
+builderTools.legend.SelectionTool.Page2.ShowMoveTool = Mostra lo strumento di spostamento
+builderTools.legend.SelectionTool.Page2.AttachToCursor = Collegare la selezione al cursore
+builderTools.legend.SelectionTool.Page2.ShowRotationTool = Mostra lo strumento di rotazione
+builderTools.legend.SelectionTool.Page2.PasteAndExit = Incolla e vai
+builderTools.legend.SelectionTool.Page2.DuplicatePasteContinue = Duplicare, incollare e continuare
+builderTools.legend.SelectionTool.Page2.CancelMovement = Annullamento del movimento e della rotazione
+builderTools.legend.SelectionTool.Page2.DuplicateSelection = Selezionare due volte e accedere alla modalità di spostamento/rotazione.
+builderTools.legend.SelectionTool.Page2.UsingYourSelection = Utilizzando la vostra selezione:
+builderTools.legend.SelectionTool.Page2.CopySelection = Selezione della copia
+builderTools.legend.SelectionTool.Page2.CopyUsageOptions = Quindi utilizzare lo strumento Incolla (pennello + anteprima) o il comando "/incolla".
+builderTools.legend.SelectionTool.Page2.SavingPrefabs = Stoccaggio di prodotti prefabbricati:
+builderTools.legend.SelectionTool.Page2.SavePrefabCommand = Salvare la selezione come prefabbricata con il comando chat
+builderTools.legend.SelectionTool.Page2.LoadPrefabReference = Per caricare i prefabbricati tramite l'interfaccia utente, consultare la legenda dello strumento Incolla.
+builderTools.legend.SelectionTool.Page3.Title = Comandi di selezione
+builderTools.legend.SelectionTool.Page3.BasicCommands = Comandi di base
+builderTools.legend.SelectionTool.Page3.SeeHelpMenu = Consultare il menu "/help" per ulteriori comandi da eseguire sulla selezione.
+builderTools.legend.RulerTool.Page1.Title = Misure di base
+builderTools.legend.RulerTool.Page1.Description = Lo strumento Righello consente di misurare le distanze tra vari punti nello spazio 3D, con il supporto di più linee di misura.
+builderTools.legend.RulerTool.Page1.PlacePoint = Posizionare un punto di misura nella posizione desiderata.
+builderTools.legend.RulerTool.Page1.EndCurrentLine = Termina la linea di misura corrente e ne inizia una nuova.
+builderTools.legend.RulerTool.Page1.SnapToAngles = Tenere premuto per attivare la regolazione dell'angolo a 45° per ottenere misure precise.
+builderTools.legend.RulerTool.Page1.DistanceMeasurement = Le misure di distanza sono visualizzate in ogni punto e lungo ogni segmento di linea. Le linee sono codificate a colori: rosso (asse X), verde (asse Y), blu (asse Z) e bianco (diagonale).
+builderTools.legend.RulerTool.Page2.Title = Modifica di punti e linee
+builderTools.legend.RulerTool.Page2.PointEditing = Modifica dei punti esistenti:
+builderTools.legend.RulerTool.Page2.MovePoint = Fare clic con il tasto destro del mouse su un punto esistente per selezionarlo e spostarlo.
+builderTools.legend.RulerTool.Page2.DropPoint = Fare nuovamente clic con il pulsante destro del mouse per rilasciare il punto nella nuova posizione.
+builderTools.legend.RulerTool.Page2.DeletePoint = Cancellare il punto su cui è stato passato il cursore
+builderTools.legend.RulerTool.Page2.ClearCurrentLine = Elimina tutti i punti della linea corrente
+
+
+/pedit exit - Exits the prefab editor without saving changes
+
+
+
+
+
+builderTools.legend.RulerTool.Page2.ClearAllLines = Cancellare tutte le righe e ripristinare lo strumento.
+builderTools.legend.RulerTool.Page3.Title = Linee di misura multiple
+builderTools.legend.RulerTool.Page3.Description = Lo strumento Righello consente di creare e gestire diverse linee di misura indipendenti. Ogni linea viene tracciata in modo indipendente e può essere modificata separatamente.
+builderTools.legend.RulerTool.Page3.NextLine = Passa alla riga di misura successiva
+builderTools.legend.RulerTool.Page3.PreviousLine = Passa alla linea di misura precedente
+builderTools.legend.RulerTool.Page3.SwitchToLine = Fare clic con il tasto sinistro del mouse su un punto di un'altra linea per passare a quella linea.
+builderTools.legend.RulerTool.Page3.WorkflowTip = Suggerimento: dopo aver posizionato i punti su una linea, fare clic con il tasto sinistro del mouse per terminarla e iniziare automaticamente una nuova linea. Le linee inattive vengono visualizzate con un'opacità ridotta.
+builderTools.legend.SelectPrefabTool.Page1.Title = Selettore di prefabbricati
+builderTools.legend.SelectPrefabTool.Page1.Description = L'editor di prefabbricati crea un ambiente temporaneo per modificare i prefabbricati e salvarli nuovamente. Se si esce dall'editor di prefabbricati senza salvare, le modifiche apportate andranno perse.
+builderTools.legend.SelectPrefabTool.Page1.SelectingPrefabs = Selezione di prodotti prefabbricati:
+builderTools.legend.SelectPrefabTool.Page1.SelectPrefab = Selezionare un prefabbricato facendo clic sul suo ancoraggio.
+builderTools.legend.SelectPrefabTool.Page1.UnselectPrefab = Deseleziona il prefabbricato attualmente selezionato.
+builderTools.legend.SelectPrefabTool.Page1.EditingPrefabs = Montaggio di prodotti prefabbricati:
+builderTools.legend.SelectPrefabTool.Page1.OpenSaveUI = Aprire l'interfaccia utente di salvataggio/impostazione
+builderTools.legend.SelectPrefabTool.Page1.UpdateBoundingBox = Aggiorna il rettangolo di selezione del prefabbricato selezionato in base alla selezione corrente.
+builderTools.legend.SelectPrefabTool.Page1.TeleportToPrefab = Aprire il teletrasporto all'interfaccia utente prefabbricata
+builderTools.legend.SelectPrefabTool.Page1.SetAnchorTitle = Strumento di fissaggio:
+builderTools.legend.SelectPrefabTool.Page1.SetAnchorDescription = Utilizzare lo strumento Imposta ancoraggio nell'inventario per modificare la posizione del punto di ancoraggio del prefabbricato. L'ancoraggio determina la posizione del prefabbricato quando viene generato.
+builderTools.legend.SelectPrefabTool.Page1.UsefulCommands = Comandi utili:
+builderTools.legend.SelectPrefabTool.Page1.KillCommand = /pedit kill: rimuove tutte le entità del prefabbricato selezionato.
+builderTools.tools.Paste.args.Origin.name = Origine
+builderTools.tools.Paste.args.Origin.values.Anchor = Ancora
+builderTools.tools.Paste.args.Origin.values.Bottom = Parte inferiore
+builderTools.tools.Paste.args.Origin.values.Center = Centro
+builderTools.tools.Paste.args.Origin.values.Top = Su
+builderTools.legend.EntityTool.Page1.Title = Strumento Entità
+builderTools.legend.EntityTool.Page1.Description = Generare PNG e modelli di oggetti, blocchi e creature. Selezionate, spostate, ruotate e scalate le entità nel vostro mondo.
+builderTools.legend.EntityTool.Page1.SelectingEntities = Selezione dell'entità:
+builderTools.legend.EntityTool.Page1.SelectEntity = Selezionare/catturare l'entità
+builderTools.legend.EntityTool.Page1.FreeMove = Entità a movimento libero (tenere premuto e trascinare)
+builderTools.legend.EntityTool.Page1.CancelMovement = Annullare il movimento e tornare alla posizione precedente.
+builderTools.legend.EntityTool.Page1.AdjustDistance = Regolazione della distanza tra le entità
+builderTools.legend.EntityTool.Page2.Title = Modalità di trasformazione
+builderTools.legend.EntityTool.Page2.TransformModes = Modalità di trasformazione:
+builderTools.legend.EntityTool.Page2.TranslateMode = Entrare in modalità di traduzione
+builderTools.legend.EntityTool.Page2.RotateMode = Entrare in modalità di rotazione
+builderTools.legend.EntityTool.Page2.RotateHeadMode = Entrare in modalità di rotazione della testa
+builderTools.legend.EntityTool.Page2.FreeMoveMode = Collegare al cursore
+builderTools.legend.EntityTool.Page2.Scale = Scala l'entità selezionata
+builderTools.legend.EntityTool.Page3.Title = Azioni
+builderTools.legend.EntityTool.Page3.EntityActions = Azioni dell'entità:
+builderTools.legend.EntityTool.Page3.Clone = Clona l'entità selezionata
+builderTools.legend.EntityTool.Page3.Remove = Cancellare l'entità selezionata
+builderTools.legend.EntityTool.Page3.Freeze = Congelamento dell'entità alternativa
+builderTools.legend.EntityTool.Page3.MovementOptions = Opzioni di movimento:
+builderTools.legend.EntityTool.Page3.SurfaceLock = Abilitazione/disabilitazione della modalità di blocco della superficie
+builderTools.legend.EntityTool.Page3.SpawnUI = Interfaccia utente di Spawn:
+builderTools.legend.EntityTool.Page3.OpenSpawnUI = Interfaccia utente per la generazione di entità aperte
+builderTools.panel.selectedEntity = Entità selezionata
+builderTools.panel.entitySettings = Configurazione dello strumento Entità
+
+
+
+# === codex ===
+
+
+
+
+# === confirmQuitOverlay ===
+
+# === contentCreation ===
+
+\n\
+Simply choose one of the tools from the menu above to get started.
+
+
+builderTools.panel.noSelection = Non è stata selezionata alcuna entità.
+builderTools.panel.entityType = Tipo
+builderTools.panel.entityModel = Modello
+builderTools.panel.entityName = Nome
+builderTools.panel.entityPosition = Posizione
+builderTools.panel.entityRotation = Rotazione
+builderTools.panel.entityScale = Scala
+builderTools.panel.entityAllowPickup = Consentire la raccolta
+builderTools.panel.entityClone = Clone
+builderTools.panel.entityRemove = Cancellare
+builderTools.panel.entityPin = Pin dell'entità
+builderTools.panel.entityUnpin = Disancoraggio dell'entità
+builderTools.panel.surfaceLock = Blocco in superficie
+builderTools.panel.gridSnap = Aggancio alla griglia
+builderTools.panel.gridSize = Dimensione della griglia
+builderTools.commands.clearEntities.description = Rimuove tutte le entità dalla selezione corrente.
+builderTools.entityType.npc = Congresso Nazionale del Popolo
+builderTools.entityType.item = Inoltre
+builderTools.entityType.model = Modello
+builderTools.entityType.unknown = Sconosciuto
+builderTools.entityModel.fallback.npc = PNG #{id}
+builderTools.entityModel.fallback.item = Anche #{id}
+builderTools.entityModel.fallback.block = Blocco #{id}
+builderTools.entityModel.fallback.unknown = #{id}
+builderTools.panel.entityLightEnabled = Attivato dalla luce
+builderTools.panel.entityLightColor = Colore chiaro
+builderTools.panel.entityLightRadius = Raggio di luce
+builderTools.panel.npcDebug = Debug dei PNG
+builderTools.panel.npcState = Stato
+builderTools.panel.npcHealth = Salute
+builderTools.panel.npcStamina = Resistenza
+builderTools.panel.npcSpeed = Velocità
+builderTools.panel.npcTarget = Obiettivo
+builderTools.panel.npcTarget.none = Nessuno
+codex.title = Codice
+codex.movement = Movimento
+codex.mantling = Mantenimento
+codex.mantling.description = Quando incontrate un ostacolo più alto di voi, spostatevi in avanti e premete il pulsante di salto per superarlo.
+codex.sliding = Scivolamento
+codex.sliding.description = Mentre si corre, premere il tasto "Accovacciarsi" per scivolare.
+codex.rolling = Rotolamento
+codex.rolling.description = Mentre si cade, tenere premuto il tasto "Duck" per rotolare ed evitare i danni da caduta.
+confirmQuitOverlay.title = Uscire dal gioco
+confirmQuitOverlay.text = Sei sicuro di voler uscire?
+confirmQuitOverlay.buttons.returnToGame = Torniamo al gioco
+confirmQuitOverlay.buttons.quitToDesktop = Uscita verso la scrivania
+contentCreation.pageTitle = Strumenti creativi
+contentCreation.introText = Questo è l'hub da cui si può accedere a vari strumenti ed editor che possono aiutare a creare contenuti in Hytale.
+contentCreation.actionButton.toggleBlockEditingTools = Alterna gli strumenti di modifica dei blocchi
+contentCreation.notification.noBlockTargeted = È necessario selezionare un blocco per aprirlo nell'Editor risorse.
+
+# Blockbench Modals
+
+
+\n\
+Modify the blocks in your world with the block editing tools found in the tools tabs of the creative inventory.
+
+
+
+# === controls ===
+# Timeline Control
+contentCreation.modal.blockbench.installRequired.title = È necessaria l'installazione di Blockbench
+contentCreation.modal.blockbench.installRequired.text = Utilizziamo Blockbench per modificare i modelli 3D. Sembra che non abbiate installato Blockbench. È possibile avviare Blockbench da Hytale solo se è stato installato con il programma di installazione. Volete installarlo ora dal loro sito web?
+contentCreation.modal.blockbench.installRequired.confirm = Installare Blockbench
+contentCreation.modal.blockbench.pluginRequired.title = È necessario il componente aggiuntivo Hytale
+contentCreation.modal.blockbench.pluginRequired.text = Sembra che abbiate installato Blockbench, ma vi manca il componente aggiuntivo Hytale. Le istruzioni su come farlo sono disponibili sul sito web di Blockbench.
+contentCreation.modal.blockbench.pluginRequired.confirm = Mostra le istruzioni di installazione
+contentCreation.modal.blockbench.launchFailed.title = Errore nell'avvio di Blockbench
+contentCreation.modal.blockbench.launchFailed.text = Blockbench è stato trovato sul vostro sistema, ma non siamo riusciti ad avviarlo.
+contentCreation.navigation.assets = Attività
+contentCreation.navigation.assetEditor = Editor di risorse
+contentCreation.navigation.assetEditor.tooltipTitle = Avviare l'applicazione Asset Editor
+contentCreation.navigation.assetEditor.tooltipDesc = Avvia un programma esterno che consente di modificare in tempo reale le risorse di configurazione del gioco.
+contentCreation.navigation.blockbench = Modello di editore
+contentCreation.navigation.blockbench.tooltipTitle = Avvio dell'applicazione Blockbench (Model Editor)
+contentCreation.navigation.blockbench.tooltipDesc = Create i vostri modelli e le vostre animazioni per Hytale.
+contentCreation.navigation.nodeeditor = Editor dei nodi delle risorse
+contentCreation.navigation.nodeeditor.tooltipTitle = Avviare l'applicazione Asset Node Editor
+contentCreation.navigation.nodeeditor.tooltipDesc = Modificare le risorse utilizzando un editor di nodi di scripting visivo.
+contentCreation.navigation.machinima = Machinima
+contentCreation.navigation.machinima.tooltipTitle = Aprire l'editor di Machinima
+contentCreation.navigation.machinima.tooltipDesc = Create i vostri filmati all'interno di Hytale utilizzando l'editor Machinima.
+contentCreation.navigation.buildertools = Strumenti per i costruttori
+contentCreation.navigation.buildertools.tooltipTitle = Aprire gli strumenti del costruttore
+contentCreation.navigation.buildertools.tooltipDesc = Strumenti di modifica dei blocchi (selezione, pennello, scultura, ecc.).
+contentCreation.modal.nodeeditor.nonsupported.title = Piattaforma non supportata
+contentCreation.modal.nodeeditor.nonsupported.text = L'editor di nodi non è attualmente supportato sulla vostra piattaforma. Al momento supportiamo solo Windows, ma stiamo lavorando per rendere questa funzione disponibile su tutte le piattaforme PC.
+contentCreation.navigation.worldtools = Mondo
+contentCreation.navigation.worldtools.prefabEditor = Editore di prefabbricati
+contentCreation.navigation.worldtools.prefabEditor.tooltipTitle = Creare o modificare i prefabbricati in uno spazio separato.
+contentCreation.navigation.worldtools.prefabList = Elenco dei prodotti prefabbricati
+contentCreation.navigation.worldtools.prefabList.tooltipTitle = Elenca tutti i prefabbricati creati dall'utente; fate clic su uno di essi per caricarlo nello strumento Incolla.
+contentCreation.navigation.worldtools.spawnEntity = Entità di spawn
+contentCreation.navigation.worldtools.spawnParticle = Particella di spawn
+contentCreation.navigation.worldtools.changeModel = Cambiare il modello di giocatore
+contentCreation.navigation.worldtools.tintChunk = Tintura a pezzi
+contentCreation.navigation.worldtools.instances = Istanze
+contentCreation.navigation.worldtools.playSound = Riproduzione del suono
+contentCreation.navigation.worldtools.playSound.tooltipTitle = Esegue la scansione e la riproduzione di eventi sonori.
+contentCreation.navigation.worldtools.importObj = Importazione OBJ
+contentCreation.navigation.worldtools.importObj.tooltipTitle = Converte i modelli OBJ 3D in voxel e li copia negli appunti.
+contentCreation.navigation.worldtools.importImage = Importazione dell'immagine
+contentCreation.navigation.worldtools.importImage.tooltipTitle = Converte le immagini 2D in block art e le copia negli appunti.
+contentCreation.navigation.help = Aiuto
+contentCreation.navigation.help.commands = Comandi
+controls.timeline.tooltip.muteTrack = Binario muto
+controls.timeline.tooltip.playPause = Riproduzione/Pausa
+controls.timeline.tooltip.stop = Fermarsi
+controls.timeline.tooltip.addTrack = Aggiungi traccia
+controls.timeline.button.autoRestart = Riavvio automatico
+controls.timeline.tooltip.toggleLoop = Anello di commutazione
+# === devTools ===
+
+
+
+
+
+
+
+
+
+controls.timeline.label.time = Tempo: {time}s
+controls.timeline.label.frame = Telaio: {frame}
+controls.timeline.label.duration = Durata: {duration}
+controls.timeline.label.fps = Fotogrammi al secondo: {fps}
+controls.timeline.tooltip.keyframe = Telaio: {time}
+devTools.tabs.Console = Console
+devTools.tabs.GameInfo = Informazioni sul gioco
+devTools.options = Opzioni
+devTools.popupMenu.copyGameInfo = Copiare le informazioni di gioco negli appunti
+devTools.popupMenu.createDefect = Creare un difetto
+devTools.gameStats.popupMenu.editInAssetEditor = Modifica nell'Editor risorse
+devTools.gameStats.popupMenu.copyValue = Valore di copia
+devTools.logEntry.popupMenu.copyMessage = Copia del messaggio
+devTools.gameInfo.sections.Build = Costruire
+devTools.gameInfo.sections.Hardware = Hardware
+devTools.gameInfo.sections.World = Mondo
+devTools.gameInfo.sections.Chunks = Pezzi
+devTools.gameInfo.sections.AtlasSizes = Dimensioni dell'Atlante
+devTools.gameInfo.sections.Assets = Attività
+devTools.gameInfo.sections.UI = Interfaccia utente
+devTools.gameInfo.sections.Particles = Particelle
+devTools.gameInfo.sections.Network = Web
+devTools.gameInfo.keys.Branch = Ramo
+devTools.gameInfo.keys.Revision = Recensione
+devTools.gameInfo.keys.FrameworkVersion = Versione netta
+devTools.gameInfo.keys.GPUVendor = Unità di elaborazione grafica
+devTools.gameInfo.keys.GPURenderer = Rendering GPU
+devTools.gameInfo.keys.GPUVersion = Versione GPU
+devTools.gameInfo.keys.WindowSize = Dimensione della finestra
+devTools.gameInfo.keys.ViewportSize = Dimensione della finestra grafica
+devTools.gameInfo.keys.SceneSize = Dimensione della scena
+devTools.gameInfo.keys.Biome = Bioma
+devTools.gameInfo.keys.Zone = Zona
+devTools.gameInfo.keys.Environment = Ambiente
+devTools.gameInfo.keys.Weather = Il clima
+devTools.gameInfo.keys.Entities = Entità
+devTools.gameInfo.keys.AudioEvents = Eventi audio
+devTools.gameInfo.keys.SoundEffect = Effetto sonoro
+devTools.gameInfo.keys.ViewDistance = Distanza di visione
+devTools.gameInfo.keys.Heightmap = Mappa delle altezze
+devTools.gameInfo.keys.Tint = Tintura
+devTools.gameInfo.keys.Light = Luce
+devTools.gameInfo.keys.Music = Musica
+devTools.gameInfo.keys.TargetBlock = Blocco di destinazione
+devTools.gameInfo.keys.HitBox = Tabella d'impatto
+devTools.gameInfo.keys.Orientation = Orientamento
+devTools.gameInfo.keys.FeetPosition = Posizione dei piedi
+devTools.gameInfo.keys.ChunkPosition = Posizione del frammento
+devTools.gameInfo.keys.MapAtlasSize = Mappa
+devTools.gameInfo.keys.EntityAtlasSize = Entità
+
+
+
+
+
+# === disconnection ===
+
+
+
+
+# === gameLoadingView ===
+
+
+# === gamePageNavigation ===
+# === general ===
+devTools.gameInfo.keys.IconAtlasSize = Icona
+devTools.gameInfo.keys.UIAtlasSize = Interfaccia utente
+devTools.gameInfo.keys.CustomUIAtlasSize = Interfaccia utente personalizzata
+devTools.gameInfo.keys.ChunksLoaded = Caricato
+devTools.gameInfo.keys.ChunksDrawable = Disegnabile
+devTools.gameInfo.keys.ChunksMax = Massimo
+devTools.gameInfo.keys.ChunksQueued = In coda
+devTools.gameInfo.keys.ChunksRebuilding = Ricostruzione
+devTools.gameInfo.keys.ChunksUploadReady = Pronti a salire
+devTools.gameInfo.keys.ChunksToUpdate = Per aggiornare
+devTools.gameInfo.keys.ChunksUpToDate = Aggiornato
+devTools.gameInfo.keys.ActivelyReferencedAssets = Riferimento attivo
+devTools.gameInfo.keys.BuiltInAssets = Integrato
+devTools.gameInfo.keys.CachedAssets = In cache
+devTools.gameInfo.keys.UIScale = Scala
+devTools.gameInfo.keys.ParticleSystems = Sistemi
+devTools.gameInfo.keys.ParticleProxies = Proxy
+devTools.gameInfo.keys.ParticleBlend = Miscela
+devTools.gameInfo.keys.ParticleDistortion = Distorsione
+devTools.gameInfo.keys.ParticleErosion = Erosione
+devTools.gameInfo.keys.NetworkSent = Pomeriggio
+devTools.gameInfo.keys.NetworkReceived = Ricevuto
+disconnection.title.disconnected = Disconnesso dal server
+disconnection.title.failedToConnect = Impossibile connettersi al server.
+disconnection.button.quitToMainMenu = Esce dal menu principale
+disconnection.button.reconnect = Ricollegarsi
+disconnection.button.reconnect.inProgress = Riconnettersi...
+disconnection.button.tryAgain = Riprova
+disconnection.button.tryAgain.inProgress = Collegamento...
+disconnection.autoConnectingIn = Collegamento in {seconds}
+disconnection.error.unexpectedError = Si è verificato un errore imprevisto.
+disconnection.error.noConnectectionEstablished = Non è stato possibile stabilire la connessione.
+gameLoadingView.hints.constructionThanks = Grazie per aver giocato mentre siamo in costruzione!
+gameLoadingView.hints.futureTipsAndTricks = Questa schermata vi mostrerà suggerimenti e trucchi per aiutarvi nella vostra avventura.
+gameLoadingView.status.waitingForShutdown = In attesa che il server finisca di spegnersi...
+gameLoadingView.status.connecting = Collegamento...
+gameLoadingView.status.connectingP2P = Collegamento a "{name}" di "{host}"... ({current}/{total})
+gameLoadingView.status.bootingServer = Avvio del server...
+gameLoadingView.status.enterPassword = Inserire la password del server.
+gameLoadingView.status.wrongPassword = Password errata. {Tentativi, plurale, uno {# attempt} altri {# attempts}} rimanenti.
+gameLoadingView.password.title = Password del server
+gameLoadingView.password.submit = Accedi
+gamePageNavigation.buttons.Inventory = Inventario
+gamePageNavigation.buttons.Map = Mappa
+gamePageNavigation.buttons.ContentCreation = Strumenti creativi
+gamePageNavigation.buttons.ContentCreation.disabledTooltip = Il menu creativo è disponibile solo in modalità creativa.
+gamePageNavigation.buttons.ContentCreation.disabledTooltip.title = [MODALITÀ CREATIVA
+gamePageNavigation.buttons.ContentCreation.disabledTooltip.description = [In modalità creativa si ha accesso a potenti strumenti di editing. Per passare alla modalità creativa, digitare "/op self" e poi attivare la modalità gioco con il tasto di scelta rapida "O".
+gamePageNavigation.earlyAccess = Accesso anticipato
+general.button.cancel = Annullamento
+
+
+
+
+
+
+
+# === hud ===
+
+
+
+
+general.button.confirm = Confermare
+general.button.save = Risparmiare
+general.button.ok = Concordato.
+general.button.saveChanges = Salva le modifiche
+general.button.discardChanges = Scartare le modifiche
+general.button.resetDefaults = Ripristino delle impostazioni predefinite
+general.button.close = Chiudere
+general.button.back = Indietro
+general.button.add = Aggiungi
+general.button.delete = Cancellare
+general.button.remove = Cancellare
+general.button.edit = Modifica
+general.button.select = Selezionare
+general.button.browse = Esplorare
+general.label.loading = Caricamento...
+general.searchField.placeholder = Ricerca
+general.filterField.placeholder = Filtro
+general.dialog.error.title = Errore
+general.checkbox.on = Attivato
+general.checkbox.off = Disattivato
+general.gamemodes.adventure = Avventura
+general.gamemodes.creative = Creativo
+general.relativeTime.now = In questo momento
+general.relativeTime.lessThanAMinute = Meno di un minuto fa
+general.relativeTime.minute = Un minuto fa
+general.relativeTime.minutes = {minutes} minuti fa
+general.relativeTime.hour = 1 ora fa
+general.relativeTime.hours = {hours} ore fa
+general.relativeTime.day = un giorno fa
+general.relativeTime.days = {days} giorni fa
+general.relativeTime.month = 1 mese fa
+general.relativeTime.months = {months} mesi fa
+general.relativeTime.year = un anno fa
+general.relativeTime.years = {years} anni fa
+general.chatMessage.failedToSaveScreenshot = Non è stato possibile salvare lo screenshot!
+general.chatMessage.requestCancelled = La domanda è stata annullata.
+hud.playerList.onlinePlayers = Giocatori online
+hud.playerList.username = Nome utente
+hud.playerList.ping = Ping
+hud.itemSlotSelector.noItem = Nessun articolo
+hud.itemSlotSelector.empty = Vuoto
+hud.itemSlotSelector.invalidItem = Articolo non valido
+hud.entityEffects.defaultBuffName = Buff
+hud.entityEffects.defaultDebuffName = Svantaggio
+hud.portalPanel.title = {name}
+hud.portalPanel.portalLabel = Frammento di Orbis
+hud.portalPanel.timeUntilBreach = Tempo fino alla violazione della nullità
+hud.portalPanel.timeUntilClose = Tempo fino alla chiusura del cancello
+hud.inputBindings.inventory = Inventario
+hud.inputBindings.creationTools = Strumenti creativi
+
+
+
+
+\n\
+Ten cuidado al abrir enlaces de otros jugadores, especialmente si te preguntan por información personal.\n\
+\n\
+¿Estás seguro de que quieres continuar?
+# === inventory ===
+
+
+
+
+
+
+hud.inputBindings.map = Mappa
+hud.inputBindings.rotateBlock = Girare
+hud.inputBindings.selectBlockVariant = Variante di blocco
+hud.networkQuality.ping.good = Bassa latenza (<50 ms)
+hud.networkQuality.ping.okay = Latenza moderata (50-100 ms): si può notare un leggero ritardo.
+hud.networkQuality.ping.poor = Alta latenza (100-200 ms): si possono verificare ritardi.
+hud.networkQuality.ping.bad = Latenza molto alta (>=200 ms): il gioco potrebbe essere lento o non rispondere.
+hud.networkQuality.jitter.good = Basso jitter (<5 ms)
+hud.networkQuality.jitter.okay = Jitter moderato (5-15 ms): si possono notare piccoli tagli.
+hud.networkQuality.jitter.poor = Jitter elevato (15-30 ms): l'esperienza di gioco può essere discontinua.
+hud.networkQuality.jitter.bad = Jitter molto elevato (>=30 ms): possono verificarsi frequenti picchi di ritardo o effetto rimbalzo.
+hud.networkQuality.packetLoss.good = Bassa perdita di pacchetti (<0,1%)
+hud.networkQuality.packetLoss.okay = Perdita di pacchetti moderata (0,1-1%): si possono notare ritardi occasionali o azioni mancate.
+hud.networkQuality.packetLoss.poor = Elevata perdita di pacchetti (1-3 %): alcune azioni o aggiornamenti potrebbero non essere registrati.
+hud.networkQuality.packetLoss.bad = Perdita di pacchetti molto elevata (>=3%): possono verificarsi gravi desincronizzazioni o disconnessioni.
+hud.networkQuality.worldSaving = Sorvegliare il mondo
+hud.networkQuality.offlineMode = Modalità offline: la sessione è scaduta. Riavvia il gioco per riconnetterti.
+hud.sleep.awaiting = I giocatori di {asleep}/{total} dormono...
+hud.sleep.waitingOn = In attesa di {who}
+hud.chat.openLinkModal.title = Aprire un sito web esterno?
+hud.chat.openLinkModal.text = State per aprire il sito web "{url}" in un browser web. \n\
+hud.chat.openLinkModal.confirm = Aprire il sito web
+inventory.chest.title = Questo
+inventory.chest.tooltip.takeAll = Prendi tutto: sposta tutti gli oggetti dal contenitore all'inventario.
+inventory.chest.tooltip.putAll = Metti tutto: sposta tutti gli oggetti dall'inventario al contenitore.
+inventory.chest.tooltip.quickStack = Accatastamento rapido: sposta gli oggetti dall'inventario al contenitore per i tipi di oggetti già presenti.
+inventory.inventory.title = Inventario
+inventory.itemQuantityPopup.title = Pila divisa:
+inventory.itemLibrary.title = Biblioteca dell'articolo
+inventory.itemLibrary.options.title = Opzioni
+inventory.itemLibrary.options.showVariants = Mostra le varianti
+inventory.itemPreview.title = Anteprima dell'articolo
+inventory.character.tooltip.togglePocketCrafting = Creazione di tasche alternative
+inventory.character.tooltip.toggleBackpack = Zaino alternativo
+inventory.character.tooltip.lockedBackpack = Si sblocca creando il potenziamento dello zaino.
+inventory.character.tooltip.toggleMemories = Alternanza di memorie raccolte
+inventory.character.tooltip.disabledMemories = Le memorie [TMP] sono disabilitate in questo contesto.
+inventory.character.tooltip.disabledBackpack = [Il dongle è disabilitato in questo contesto.
+inventory.character.tooltip.lockedMemories = Per maggiori informazioni, cercate il Tempio Dimenticato.
+inventory.character.tooltip.pocketCraftingDisabled = [Il Pocket Crafting è disabilitato in questo contesto.
+inventory.character.stats.mana = Manna
+inventory.character.stats.health = Salute
+inventory.character.stats.stamina = Resistenza
+inventory.character.stats.defense = Difesa
+inventory.character.stats.stats = Statistiche
+inventory.crafting.title = Fabbricazione
+inventory.crafting.button.craft = Fabbricazione
+inventory.crafting.button.craft1 = Fabbricazione
+inventory.crafting.button.craft10 = X10
+inventory.crafting.button.craft10.tooltip = Produzione x10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# === itemTooltip ===
+
+
+inventory.crafting.button.craftAll = Tutti
+inventory.crafting.button.craftAll.tooltip = Creare tutti
+inventory.crafting.button.craftX = x{count}
+inventory.crafting.button.crafting = Creazione...
+inventory.crafting.unknownItem = Elemento sconosciuto
+inventory.crafting.unknownItem.knowledgeRequired = Ricetta ancora da scoprire
+inventory.crafting.unknownItem.memoriesCountRequired = Trova il <colore is="#f1ba50">Tempio dimenticato</colore> e ripristina i ricordi di {memories} per sbloccare questa ricetta!
+inventory.crafting.lockedItem.benchTierLevelRequired = Richiede il livello {benchname} {level}
+inventory.bench.tierLevelX = Livello {level}
+inventory.bench.tierLevelX.requirements = Requisiti di livello {level}
+inventory.bench.tierLevelX.upgrade = Aggiornamento al livello {level}
+inventory.bench.tier.button.upgrade = Migliorare
+inventory.bench.tier.max = LIVELLO MASSIMO RAGGIUNTO
+inventory.crafting.ingredient.tooltip.pullingFromChests = Non ci sono abbastanza ingredienti nell'inventario. Utilizzo di oggetti dai forzieri vicini.
+inventory.crafting.options.hideUnknownRecipes = Nascondere le ricette sconosciute
+inventory.processing.button.turnOn = Accendere
+inventory.processing.button.turnOff = Spegnere
+inventory.processing.panel.fuel.title = Carburante
+inventory.processing.panel.output.title = Uscita
+inventory.panel.input.title = Ingresso
+inventory.itemInfo.title = Informazioni sull'articolo
+inventory.itemInfo.hoverInfo = Passate il mouse su un articolo per saperne di più.
+inventory.itemInfo.itemSet = Set di articoli
+inventory.recipesButton = Ricette
+inventory.recipeCataloguePopup.title = Catalogo di ricette
+inventory.fieldcraft.title = Artigianato tascabile
+inventory.storage.filterTooltips.weapons = Mostra solo le armi
+inventory.storage.filterTooltips.armor = Mostra solo l'armatura
+inventory.storage.filterTooltips.blocks = Mostra solo i materiali da costruzione
+inventory.button.autoSort.tooltip = Ordinare gli elementi per tipo
+inventory.dropdown.autoSortBy = Ordinamento automatico per:
+inventory.dropdown.autoSort.types.Name = Nome
+inventory.dropdown.autoSort.types.Type = Tipo
+inventory.dropdown.autoSort.types.Rarity = Rarità
+inventory.memories.title = Memorie raccolte
+inventory.action.toggleBuilderTools = Strumenti di costruzione alternati
+inventory.action.pickHalf = Prendere la metà
+inventory.action.pickOne = Prendere uno
+inventory.action.smartMove = Cattura veloce
+inventory.action.resize = Modificare la quantità
+inventory.action.placeOne = Mettere uno
+inventory.action.resizeMod = Modifica della quantità x5
+itemTooltip.resourceType.name = Risorsa: {name}
+itemTooltip.id = Identità:
+itemTooltip.utility = Utilità
+itemTooltip.consumable = Materiali di consumo
+itemTooltip.cursed.label = Dannazione
+itemTooltip.cursed.help = Sopravvivere al frammento per purificare
+itemTooltip.stats.Health = Salute
+itemTooltip.stats.Stamina = Resistenza
+
+
+
+# === machinima ===
+
+# Header
+
+# Modal Titles
+itemTooltip.stats.Mana = Manna
+itemTooltip.stats.Oxygen = Ossigeno
+itemTooltip.stats.Defense = Difesa
+itemTooltip.stats.FireResistance = Resistenza al fuoco
+itemTooltip.stats.WaterResistance = Resistenza all'acqua
+itemTooltip.stats.EarthResistance = Resistenza di terra
+itemTooltip.stats.AirResistance = Resistenza dell'aria
+itemTooltip.stats.SignatureEnergy = Energia esclusiva
+itemTooltip.stats.Ammo = Munizioni
+itemTooltip.stats.SignatureCharges = Carichi di abilità
+itemTooltip.damageClass.unknown = Sconosciuto
+itemTooltip.damageClass.light = Attacco leggero
+itemTooltip.damageClass.charged = Attacco caricato
+itemTooltip.damageClass.signature = Attacco di abilità
+itemTooltip.increases = Aumenta
+itemTooltip.decreases = Diminuzioni
+itemTooltip.modifies = Modificare
+itemTooltip.damageBy = danni causati da:
+itemTooltip.resistance = Resilienza:
+itemTooltip.oneHanded = Una mano
+itemTooltip.twoHanded = Due mani
+machinima.bindings.TogglePause = Attiva la pausa
+machinima.bindings.ToggleDisplay = Display a levetta
+machinima.bindings.ToggleCamera = Telecamera alternativa
+machinima.bindings.RestartScene = Riavviare la scena
+machinima.bindings.FrameDecrement = Decremento del frame
+machinima.bindings.FrameIncrement = Incremento del telaio
+machinima.bindings.FrameTimeDecrease = Diminuire il tempo di cornice
+machinima.bindings.FrameTimeIncrease = Aumentare il tempo di cornice
+machinima.bindings.KeyframeDecrement = Diminuire il keyframe
+machinima.bindings.KeyframeIncrement = Incremento del keyframe
+machinima.bindings.PlaybackSpeedDecrease = Riduzione del tempo di riproduzione
+machinima.bindings.PlaybackSpeedIncrease = Aumenta il tempo di riproduzione
+machinima.bindings.AddKeyframe = Aggiungi keyframe
+machinima.bindings.RemoveKeyframe = Cancellare il keyframe
+machinima.bindings.EditKeyframe = Modifica keyframe
+machinima.bindings.OriginAction = Azione di origine
+machinima.bindings.CycleSelectionMode = Modalità di selezione del ciclo
+machinima.header.placeholder.selectScene = Selezionare una scena
+machinima.header.button.create = Creare
+machinima.header.button.delete = Cancellare
+machinima.header.button.save = Risparmiare
+machinima.header.button.settings = Configurazione
+machinima.header.button.help = Aiuto
+machinima.modal.title.inputBindings = Collegamenti in ingresso
+machinima.modal.title.editScene = Modifica della scena
+machinima.modal.title.createScene = Creare una nuova scena
+machinima.modal.title.createActor = Creare un nuovo attore
+machinima.modal.title.editActor = Modifica attore
+machinima.modal.title.editKeyframeEvent = Modifica dell'evento keyframe
+
+# Modal Buttons
+
+# Modal Messages
+
+# Modal Labels
+
+# Modal Checkboxes
+
+# Modal Placeholders
+
+# Keyframe Editor
+# === mainMenu ===
+# Navigation
+
+
+
+
+# Minigames
+
+machinima.modal.title.addKeyframeSetting = Aggiungere le impostazioni dei fotogrammi chiave
+machinima.modal.title.addKeyframeEvent = Aggiungere un evento keyframe
+machinima.modal.title.deleteEvent = Cancellare l'evento
+machinima.modal.title.deleteScene = Cancellare la scena
+machinima.modal.button.close = Chiudere
+machinima.modal.button.saveChanges = Salva le modifiche
+machinima.modal.button.createScene = Creare una scena
+machinima.modal.button.createActor = Creare un attore
+machinima.modal.button.addSetting = Aggiungi configurazione
+machinima.modal.button.addEvent = Aggiungi evento
+machinima.modal.button.delete = Cancellare
+machinima.modal.message.deleteEvent = Volete cancellare l'evento "{name}"?
+machinima.modal.message.deleteScene = Si vuole eliminare la scena "{name}"?
+machinima.modal.label.name = Nome
+machinima.modal.label.type = Tipo
+machinima.modal.label.animationSlot = Slot di animazione
+machinima.modal.label.animationId = ID animazione
+machinima.modal.label.command = Comando
+machinima.modal.label.particleSystem = Sistema di particelle
+machinima.modal.label.targetActor = Attore target
+machinima.modal.label.actorType = Tipo di attore
+machinima.modal.label.item = Inoltre
+machinima.modal.label.scale = Scala
+machinima.modal.label.model = Modello
+machinima.modal.label.fieldOfView = Campo visivo
+machinima.modal.label.lighting = Emissione di luce
+machinima.modal.label.light = Colore chiaro
+machinima.modal.checkbox.activateCamera = Attivare la telecamera
+machinima.modal.placeholder.actorName = Nome dell'attore
+machinima.modal.placeholder.selectActorType = Selezionare un tipo di attore
+machinima.modal.placeholder.selectEvent = Selezionare un evento
+machinima.modal.placeholder.selectItem = Selezionare un elemento
+machinima.keyframe.tab.settings = Configurazione
+machinima.keyframe.tab.events = Eventi
+machinima.keyframe.button.addSetting = Aggiungi configurazione
+machinima.keyframe.button.addEvent = Aggiungi evento
+machinima.keyframe.button.edit = Modifica
+machinima.keyframe.button.delete = Cancellare
+machinima.keyframe.tooltip.deleteEvent = Cancellare l'evento
+mainMenu.navigation.quit = Uscita
+mainMenu.navigation.settings = Configurazione
+mainMenu.navigation.worlds = I mondi
+mainMenu.navigation.minigames = Mini-giochi
+mainMenu.navigation.servers = Server
+mainMenu.navigation.avatar = Il mio avatar
+mainMenu.navigation.shop = Negozio
+mainMenu.discord.button.label = Partecipa a Discord
+mainMenu.discord.button.tooltip = Aprite il nostro Discord in un browser esterno.
+mainMenu.feedback.button.label = [TMP] Invia commenti
+mainMenu.minigames.title = Mini-giochi
+
+
+# Shop
+
+
+# Multiplayer
+
+
+
+
+
+
+# Online Play Settings
+mainMenu.minigames.title.appendix = Prossimamente!
+mainMenu.minigames.wip.title = Lavori in corso
+mainMenu.minigames.wip.text = Questa modalità di gioco sarà disponibile in futuro.
+mainMenu.shop.title = Edizioni disponibili
+mainMenu.shop.owned = Proprietà
+mainMenu.shop.upgrade = Migliorare
+mainMenu.servers.title = Server
+mainMenu.servers.groups.recent = Recente
+mainMenu.servers.groups.favorite = Preferiti
+mainMenu.servers.groups.friends = Gli amici
+mainMenu.servers.groups.all = Tutti i server
+mainMenu.servers.groups.lan = Locale
+mainMenu.servers.groups.join = Unirsi al server
+mainMenu.servers.groups.homepage = Visualizza la pagina completa del server
+mainMenu.servers.lookingForLan = Ricerca di server locali...
+mainMenu.servers.connectingToServer = Collegamento con {name}...
+mainMenu.servers.connect = Collegare
+mainMenu.servers.connectionAddress = Indirizzo di connessione
+mainMenu.servers.connectDirectly = Connessione diretta
+mainMenu.servers.joinViaCode = Partecipa utilizzando il codice
+mainMenu.servers.inviteCode = Codice invito
+mainMenu.servers.inviteCodePlaceholder = Incollare qui il codice di invito...
+mainMenu.servers.join = Ho aderito
+mainMenu.servers.joinViaCode.error.empty = Inserire un codice di invito.
+mainMenu.servers.joinViaCode.error.invalidCode = Formato del codice invito non valido
+mainMenu.servers.joinViaCode.error.expired = Questo codice di invito è scaduto.
+mainMenu.servers.joinViaCode.error.failedToConnect = Impossibile connettersi a un indirizzo disponibile.
+mainMenu.servers.joinViaCode.status.connecting = Test dei candidati alla connessione...
+mainMenu.servers.noFavoriteServers.title = Non sono stati aggiunti server
+mainMenu.servers.noFavoriteServers.text = È possibile aggiungere un server all'elenco facendo clic su "Aggiungi server".
+mainMenu.servers.noLanServers.title = Nessun server trovato
+mainMenu.servers.noLanServers.text = I server che possono essere rilevati sulla stessa rete locale appariranno qui.
+mainMenu.onlinePlay.title = Gioca online
+mainMenu.onlinePlay.shareCode = Condividi il codice
+mainMenu.onlinePlay.shareCode.hintActive = Condividete questo codice con i vostri amici in modo che possano unirsi al vostro mondo utilizzando l'opzione "Unisciti per codice" nel menu Server.
+mainMenu.onlinePlay.shareCode.hintInactive = Attivare "Consenti agli altri giocatori di partecipare" e premere Salva per ottenere il codice di condivisione.
+mainMenu.onlinePlay.shareCode.ipWarning = Attenzione: questo codice condiviso contiene il vostro indirizzo IP. Condividetelo solo con persone fidate.
+mainMenu.onlinePlay.shareCode.placeholder = Non c'è ancora un codice da condividere.
+mainMenu.onlinePlay.shareCode.copy = Copia negli appunti
+mainMenu.onlinePlay.setting.allowPlayers = Permettere ad altri giocatori di unirsi
+mainMenu.onlinePlay.setting.password = Password
+mainMenu.onlinePlay.setting.password.placeholder = Nessuna password
+mainMenu.onlinePlay.setting.includePasswordInCode = Includere la password nel codice di condivisione
+mainMenu.onlinePlay.status.copiedToClipboard = Copiato negli appunti!
+mainMenu.onlinePlay.status.connecting = Stabilire la connessione... L'operazione potrebbe richiedere alcuni secondi.
+mainMenu.onlinePlay.status.connectedVia = Collegato tramite {method}
+mainMenu.onlinePlay.status.failed = Non è stato possibile stabilire la connessione. Riprovare o controllare le impostazioni del firewall.
+mainMenu.onlinePlay.natType = Tipo NAT: {type}
+mainMenu.onlinePlay.natType.Unknown = Sconosciuto
+mainMenu.onlinePlay.natType.None = No NAT (diretto)
+
+
+
+
+
+
+    To play multiplayer, restart the game in online mode.
+
+# Worlds
+
+
+mainMenu.onlinePlay.natType.NatWithUpnp = Standard (UPnP)
+mainMenu.onlinePlay.natType.NatWithoutUpnp = Limitato (senza UPnP)
+mainMenu.onlinePlay.natType.DoubleNat = Doppio NAT
+mainMenu.onlinePlay.natType.CarrierGradeNat = Carrier Grade NAT (CGNAT)
+mainMenu.onlinePlay.connectionWarning = Attenzione: le impostazioni di rete potrebbero impedire la connessione di altri giocatori.
+mainMenu.onlinePlay.wipWarning = Si tratta di una funzione sperimentale che dipende molto dal vostro ambiente. Se non funziona, consultare l'articolo di supporto in <u><a href="unire gli amici">{url}</a></u>.
+mainMenu.servers.button.joinServer = Unirsi al server
+mainMenu.servers.button.editServer = Modifica del server
+mainMenu.servers.button.addServer = Aggiungi server
+mainMenu.servers.editPopup.addServer = Aggiungi server
+mainMenu.servers.editPopup.editServer = Modifica del server
+mainMenu.servers.editPopup.name = Nome
+mainMenu.servers.editPopup.error.invalidAddress = Inserire un indirizzo valido per il server.
+mainMenu.servers.editPopup.error.invalidName = Inserire un nome valido per il server.
+mainMenu.servers.name = Nome
+mainMenu.servers.description = Descrizione
+mainMenu.servers.online = In linea
+mainMenu.servers.tags = Tag
+mainMenu.servers.rating = Qualifica
+mainMenu.servers.ping = Clicca qui
+mainMenu.servers.failedToFetch = Non è stato possibile ottenere l'elenco dei server.
+mainMenu.servers.details.host = Ospite: {host}
+mainMenu.servers.details.languages = Lingue supportate: {languages}
+mainMenu.servers.details.uuid = Identificatore univoco universale
+mainMenu.servers.details.online = Online: {online}
+mainMenu.servers.details.branch = Ramo: {name}
+mainMenu.servers.details.favoriteYes = Preferito: Sì
+mainMenu.servers.details.favoriteNo = Preferito: No
+mainMenu.servers.offline.title = Multiplayer non disponibile
+mainMenu.servers.offline.description.offline = Siete in modalità offline.
+mainMenu.servers.offline.description.connecting = Connessione ai server di Hytale, riprovare tra un attimo...
+mainMenu.servers.offline.description.unavailable = La modalità multigiocatore non è al momento disponibile, poiché abbiamo problemi di connessione ai server di Hytale. Riprova più tardi o riavvia il gioco.
+mainMenu.worldType = Mondo
+mainMenu.worldTypes.adventure = Avventura
+mainMenu.worldTypes.creative = Creativo
+mainMenu.worldTypes.exploration = Esplorazione
+mainMenu.worldCreation.creative.mainDescription = Liberate tutto il potenziale del vostro avatar e sviluppate la vostra maestria con potenti strumenti creativi.
+mainMenu.worlds.creativeModeDescription = Liberate tutto il potenziale del vostro avatar e sviluppate la vostra maestria con potenti strumenti creativi.
+mainMenu.worlds.selectWorld = Selezionare un mondo
+mainMenu.worlds.selectWorldAppendix = Scegliete un mondo salvato o iniziatene uno nuovo.
+mainMenu.worlds.editWorld = Modifica del mondo
+mainMenu.worlds.failedToDeleteWorld = Il mondo non poteva essere eliminato.
+mainMenu.worlds.settings = Configurazione
+mainMenu.worlds.worldName = Nome del mondo
+mainMenu.worlds.gamemode = Modalità di gioco
+mainMenu.worlds.flatWorld = Mondo piatto
+mainMenu.worlds.randomWorld = Mondo casuale
+mainMenu.worlds.creativeMode = Modalità creativa
+mainMenu.worlds.creativeModeStandard = Standard
+mainMenu.worlds.creativeModeHub = Centro creativo
+
+
+
+# Early Access Panel
+mainMenu.worlds.creativeModeGenerated = [TMP] Mondo generato
+mainMenu.worlds.npcSpawning = Personaggi non giocanti
+mainMenu.worlds.noNpcSpawning = Nessun PNG
+mainMenu.worlds.deleteWorld = Cancellare il mondo
+mainMenu.worlds.deleteWorldConfirmation = È sicuro di voler eliminare la parola "{name}"?
+mainMenu.worlds.openFolder = Aprire la cartella
+mainMenu.worlds.createWorld = Creare il mondo
+mainMenu.worlds.saveWorldSettings = Salvare le impostazioni globali
+mainMenu.worlds.newWorld = Nuovo Mondo
+mainMenu.worlds.worldOptions = Opzioni mondiali
+mainMenu.worlds.defaultWorldName = Nuovo Mondo
+mainMenu.worlds.defaultSettings = Impostazioni predefinite
+mainMenu.worlds.customSettings = Configurazione personalizzata
+mainMenu.worlds.settings.pvp = PvP
+mainMenu.worlds.settings.enabled = Abilitato
+mainMenu.worlds.settings.disabled = Disabili
+mainMenu.worlds.settings.fallDamage = Danni da caduta
+mainMenu.worlds.settings.pauseTime = Tempo di pausa
+mainMenu.worlds.settings.dayNightCycle = [Ciclo giorno/notte
+mainMenu.worlds.settings.dayDuration = [Durata del giorno (secondi)
+mainMenu.worlds.settings.nightDuration = [TMP] Durata notturna (secondi)
+mainMenu.worlds.settings.customTime = [TMP] Orario personalizzato
+mainMenu.worlds.settings.applyWorldSettings = Applicare la configurazione
+mainMenu.worlds.settings.restoreSettings = Ripristino delle impostazioni predefinite
+mainMenu.worlds.settings.deathPenalty = [Pena di morte in inventario
+mainMenu.worlds.settings.deathPenalty.tooltip = [Definisce la penalità d'inventario da applicare dopo la morte del giocatore.
+<b><color is= "#f1ba50">Nessuno</colour></b>: il giocatore non lascerà cadere oggetti alla sua morte.
+<b><color is= "#f1ba50">Getta tutto</colour></b>: il giocatore lascerà cadere tutti gli oggetti dal suo inventario alla morte.
+<b><color is= "#f1ba50">Caduta parziale</colour></b>: il giocatore lascerà cadere solo una certa quantità degli oggetti impostati per cadere alla morte.
+mainMenu.worlds.settings.resourceLoss = [Percentuale di perdita di risorse al momento del decesso
+mainMenu.worlds.settings.durabilityLoss = [Percentuale di perdita di durata al momento del decesso
+mainMenu.worlds.settings.deathPenaltyNone = [TMP] Nessuno
+mainMenu.worlds.settings.deathPenaltyDropAll = [TMP] Abbandona tutto
+mainMenu.worlds.settings.deathPenaltyPartial = [TMP] Caduta parziale
+mainMenu.worlds.adventureMode.wip.text = Non disponibile durante l'accesso anticipato] [Non disponibile durante l'accesso anticipato
+mainMenu.worlds.exploartionMode.wip.text = [Anteprima di sviluppo ad accesso anticipato].
+mainMenu.worlds.explorationModeDescription = Esplorate Echo of Orbis. Costruite, create, sopravvivete e trovate un modo per ripristinare ciò che è andato perduto.
+mainMenu.worlds.worldDoesntExist.title = Mondo sconosciuto
+mainMenu.worlds.worldDoesntExist.message = Il mondo che stavate cercando di aprire non esiste.
+mainMenu.worlds.noModsFound = Non sono disponibili modifiche.
+mainMenu.worlds.mods = Mods
+mainMenu.worlds.modType.pack = Pacchetto
+mainMenu.worlds.modType.plugin = Complemento
+mainMenu.assetEditor.errorModal.missingDirectory.title = Selezionare una directory
+mainMenu.assetEditor.errorModal.missingDirectory.text = È necessario stabilire un percorso delle risorse prima di utilizzare l'editor delle risorse.
+mainMenu.assetEditor.errorModal.invalidDirectory.title = Directory non valida
+mainMenu.assetEditor.errorModal.invalidDirectory.text = La directory selezionata per l'editor di risorse non sembra essere una directory di risorse valida. Le cartelle Common e Server sono necessarie.
+mainMenu.assetEditor.errorModal.openSettingsButton = Apri configurazione
+mainMenu.earlyAccessPanel.title = Esclusione di responsabilità per l'accesso anticipato
+mainMenu.earlyAccessPanel.text = Questo è un accesso anticipato a Hytale; il gioco è ancora in fase di sviluppo attivo. Bug e modifiche sono possibili mentre lavoriamo per il rilascio completo. Grazie per il vostro supporto!
+# === map ===
+
+
+
+
+
+# === mediaBrowser ===
+
+
+# === menuOverlay ===
+
+# === myAvatar ===
+
+
+
+
+
+map.title = Mappa del mondo
+map.contextMenu.teleport = Teletrasporto
+map.contextMenu.selectLocation = Selezionare la posizione
+map.contextMenu.deselectLocation = Deselezionare la posizione
+map.contextMenu.removeMarker = Cancellare il marcatore
+map.disabled = Posizione sconosciuta
+map.actions.placeMarker = Segnaposto
+map.actions.zoom = Zoom avanti/indietro
+map.actions.playerList = Elenco dei giocatori
+map.playerList.playerCount = ({players, number})
+map.playerList.playerCountWithMax = ({players, number}/{maxPlayers, number})
+map.playerList.worldOnly = Soli nel mondo
+map.playerList.titleWorld = Giocatori nel mondo
+map.playerList.titleServer = Giocatori del server
+map.playerList.inWorld = Questo giocatore è nel vostro mondo.
+map.marker.localPlayer = Tu
+map.marker.targetLocation = Posizione di destinazione
+mediaBrowser.popularVideos = Video più popolari
+mediaBrowser.popularStreams = Trasmissioni più diffuse
+mediaBrowser.search = Cercare "{query}".
+mediaBrowser.currentlyPlaying = Attualmente sta giocando
+mediaBrowser.live = In diretta
+mediaBrowser.youtube.errors.unreachable = Impossibile connettersi a YouTube.
+mediaBrowser.youtube.errors.requestFailed = Non è stato possibile ottenere dati da YouTube.
+menuOverlay.buttons.returnToGame = Torna al gioco
+menuOverlay.buttons.quitToDesktop = Chiudi il gioco
+menuOverlay.buttons.quitToMainMenu = Torna al menu principale
+menuOverlay.buttons.codex = Codice
+menuOverlay.buttons.settings = Impostazioni
+menuOverlay.buttons.feedback = Invia un errore o un commento
+menuOverlay.buttons.onlinePlay = Gioco online
+myAvatar.button.resetOptions = Ripristino dell'avatar
+myAvatar.button.resetClothing = Ripristino dell'abbigliamento
+myAvatar.button.randomize = Opzioni casuali
+myAvatar.button.undo = Annullare l'ultima modifica
+myAvatar.button.redo = Ripetere l'ultima modifica
+myAvatar.button.playEmote = Riproduzione dell'animazione
+myAvatar.playEmotePopup.title = Riproduzione dell'animazione
+myAvatar.title = Personalizzare l'avatar
+myAvatar.lockProperty = Fare clic per evitare che questa proprietà cambi quando si utilizza il pulsante Casuale.
+myAvatar.unlockProperty = Fare clic per consentire la modifica di questa proprietà quando si utilizza il pulsante Casuale.
+myAvatar.synchronizeHairColor.enable = Fare clic per assicurarsi che i colori dei capelli vengano abbinati automaticamente.
+myAvatar.synchronizeHairColor.disable = Fare clic per interrompere l'abbinamento automatico del colore dei capelli.
+myAvatar.tabs.General = Generale
+myAvatar.tabs.Head = Testa
+myAvatar.tabs.BodyCharacteristic = Caratteristiche del corpo
+myAvatar.tabs.Underwear = Biancheria intima
+myAvatar.tabs.Torso = Torso
+myAvatar.tabs.Capes = Strati
+myAvatar.tabs.Legs = Gambe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+myAvatar.tabs.FacialHair = Peli del viso
+myAvatar.tabs.Eyebrows = Sopracciglia
+myAvatar.tabs.Face = Cara
+myAvatar.tabs.Ears = Orecchie
+myAvatar.tabs.Mouth = Bocca
+myAvatar.tabs.Eyes = Occhi
+myAvatar.tabs.Haircut = Capelli
+myAvatar.tabs.Pants = Pantaloni
+myAvatar.tabs.Overpants = Esterno
+myAvatar.tabs.Undertop = All'interno
+myAvatar.tabs.Overtop = Esterno
+myAvatar.tabs.Shoes = Scarpe
+myAvatar.tabs.SkinFeature = Caratteristiche della pelle
+myAvatar.tabs.HeadAccessory = Copricapo
+myAvatar.tabs.FaceAccessory = Accessorio per il viso
+myAvatar.tabs.EarAccessory = Accessorio per l'orecchio
+myAvatar.tabs.Gloves = Guanti
+myAvatar.tabs.Cape = Strati
+myAvatar.tabs.Emotes = Emote
+myAvatar.baseProperties.bodyType = Tipo di corpo
+myAvatar.baseProperties.skinTone = Tonalità della pelle
+myAvatar.baseProperties.options = Opzioni
+myAvatar.baseProperties.bodyTypes.masculine = Uomo
+myAvatar.baseProperties.bodyTypes.feminine = Donna
+myAvatar.color = Colore
+myAvatar.variant = Opzione
+myAvatar.dropdown.filterBy = Filtrare per:
+myAvatar.lockedCosmetics = Cosmetici bloccati
+myAvatar.unsavedChangesDialog.title = Modifiche non salvate
+myAvatar.unsavedChangesDialog.text = Sono state apportate modifiche al proprio avatar che non sono ancora state salvate.
+myAvatar.lockedCosmeticDialog.title = Bloccato cosmetico selezionato
+myAvatar.lockedCosmeticDialog.text = È stato selezionato un cosmetico che richiede un'edizione speciale. È possibile annullare la selezione fino all'ultima selezione valida o modificare la selezione per scegliere un cosmetico diverso.
+myAvatar.lockedCosmeticDialog.undoButton = Annullamento della selezione
+myAvatar.lockedCosmeticDialog.editButton = Modifica della selezione
+myAvatar.failedToSaveDialog.title = Impossibile salvare l'avatar!
+myAvatar.failedToSaveDialog.text = Al momento abbiamo dei problemi nel salvare il tuo avatar. Riprova più tardi.
+myAvatar.failedToSaveDialog.button.tryAgain = Riprova ora
+myAvatar.failedToSaveDialog.button.ok = Concordato.
+myAvatar.entitlement.gameFounder.titleSuffix = Edizione esclusiva Cursebreaker
+myAvatar.entitlement.gameFounder.lockedMessage = Per utilizzare questo cosmetico, è necessaria l'edizione Cursebreaker.
+myAvatar.entitlement.gameFounder.description = Questa parte è esclusiva dell'edizione Cursebreaker di Hytale. Sbloccatela aggiornando la vostra edizione attuale nel Negozio di Hytale.
+myAvatar.entitlement.gameDeluxe.titleSuffix = Edizione esclusiva per i sostenitori
+myAvatar.entitlement.gameDeluxe.lockedMessage = [Per utilizzare questo cosmetico, è necessaria la Supporter Edition.
+myAvatar.entitlement.gameDeluxe.description = Questa parte è esclusiva dell'edizione Hytale Supporter. Sbloccala aggiornando la tua edizione attuale nel negozio di Hytale.
+myAvatar.entitlement.gameStandard.titleSuffix = Edizione standard esclusiva per l'accesso anticipato
+myAvatar.entitlement.gameStandard.lockedMessage = [Per utilizzare questo cosmetico, è necessaria l'edizione standard ad accesso anticipato.
+myAvatar.entitlement.gameStandard.description = Questa parte è esclusiva dell'edizione standard ad accesso anticipato di Hytale. Sbloccatela aggiornando la vostra edizione attuale nel negozio di Hytale.
+myAvatar.entitlement.default.lockedMessage = Non è possibile utilizzare questo cosmetico perché è bloccato.
+myAvatar.offline.title = Creatore di avatar non disponibile
+myAvatar.offline.description.offline = Per utilizzare il creatore di avatar, riavviare il gioco in modalità online.
+
+# === settings ===
+
+
+
+
+
+# Quick Settings Categories
+myAvatar.offline.description.connecting = Connessione ai server di Hytale, riprova tra un attimo...
+myAvatar.offline.description.unavailable = Il creatore di avatar non è al momento disponibile, poiché abbiamo problemi di connessione ai server di Hytale. Riprova più tardi o riavvia il gioco.
+settings.title = Configurazione
+settings.tabs.general = Generale
+settings.tabs.video = Video
+settings.tabs.audio = Audio
+settings.tabs.mouse = Mouse
+settings.tabs.controls = Controlli
+settings.tabs.gameplay = Gioco
+settings.tabs.prototype = Prototipo
+settings.groups.mouse = Mouse
+settings.groups.audioOutput = Uscita
+settings.groups.general = Generale
+settings.groups.gameplay = Gioco
+settings.groups.rendering = Rendering
+settings.groups.advancedRendering = Rendering avanzato
+settings.groups.ui = Interfaccia utente
+settings.groups.development = Sviluppo
+settings.groups.language = Lingua
+settings.groups.options = Opzioni
+settings.groups.controls.movement = Movimento
+settings.groups.controls.actions = Azioni
+settings.groups.controls.creative = Creativo
+settings.groups.controls.menus = Menu
+settings.groups.controls.blockPlacement = Posa dei blocchi
+settings.groups.controls.builderTools = Strumenti per i costruttori
+settings.groups.controls.misc = Vari
+settings.groups.controls.debug = Debug
+settings.groups.builderTools = Strumenti per i costruttori
+settings.groups.movement = Movimento
+settings.groups.mantling = Mantenimento
+settings.groups.camera = Macchina fotografica
+settings.groups.sprint = Forza di sprint
+settings.groups.slide = Forza di scorrimento
+settings.groups.stamina = Resistenza
+settings.groups.weaponPullback = Ritiro delle armi
+settings.groups.entityui = Interfaccia utente dell'entità
+settings.groups.playselect = Strumento di selezione dei giochi
+settings.groups.playpaint = Giocare con lo strumento di pittura
+settings.groups.paint = Pittura
+settings.groups.debug = Debug
+settings.groups.mounts = Supporti
+settings.groups.creativeMode = Modalità creativa
+settings.groups.pickupLocations = Luoghi di ritiro preferiti
+settings.groups.accessibility = Accessibilità
+settings.percentagePlayGizmoLength = Larghezza percentuale per la rappresentazione di Gizmo
+settings.minPlaySelectGizmoSize = Dimensione minima del dispositivo
+settings.maxPlaySelectGizmoSize = Dimensione massima del dispositivo
+settings.paintOperationIgnoreHistoryLength = Giocare a dipingere Ignorare la storia Durata
+settings.category.movementFlight = Movimento e volo
+
+# Quick Settings Labels
+
+# Quick Settings UI
+
+settings.category.placementSettings = Impostazioni della posizione
+settings.category.toolSettings = Configurazione dello strumento
+settings.category.brushSettings = Impostazioni della spazzola
+settings.category.soundSettings = Configurazione audio
+settings.category.selectionSettings = Configurazione della selezione
+settings.category.uiVisibility = Visibilità dell'interfaccia utente
+settings.category.displayNotifications = Display e notifiche
+settings.noClip = Nessuna clip
+settings.flightMode = Modalità aereo
+settings.flightMode.hover = Librarsi
+settings.flightMode.directional = Direzionale
+settings.flightInertia = Inerzia del volo
+settings.flightSpeedMultiplier = Velocità di movimento
+settings.airPlacement = Posizionamento dell'aria
+settings.allowNPCDetection = Abilita il rilevamento dei PNG
+settings.respondToHit = Rispondere al colpo
+settings.toolReachDistance = Distanza di raggiungimento dell'utensile
+settings.toolDelayMin = Ritardo minimo dell'utensile
+settings.brushOpacity = Opacità del pennello
+settings.enableBrushShapeRendering = Abilita il rendering della forma del pennello
+settings.brushSoundsEnabled = Suoni della spazzola
+settings.brushSoundVolume = Volume del suono della spazzola
+settings.selectionOpacity = Opacità della selezione
+settings.selectionPanelOpacity = Opacità del pannello di selezione
+settings.displayLegend = Legenda dello schermo
+settings.showToolNotifications = Mostra le notifiche dello strumento
+settings.laserPointerColor = Colore del puntatore laser
+settings.laserPointerColor.description = Il colore esadecimale predefinito per lo strumento puntatore laser.
+settings.fullbright = Fullbright
+settings.dragToReorder = Trascinare per riordinare
+settings.resetToDefaults = Ripristino delle impostazioni predefinite
+settings.resetToDefaults.tooltip = Ripristinare tutte le impostazioni rapide ai valori predefiniti.
+settings.resetOptions = Opzioni di reset
+settings.useSystemLanguage = Utilizzo della lingua di sistema
+settings.language = Lingua
+settings.language.description = Imposta la lingua visualizzata nel gioco.
+settings.fullscreen = Schermo intero
+settings.noAuthName = Nessun nome di autenticazione
+settings.resolution = Risoluzione
+settings.windowSize = Dimensione della finestra
+settings.windowResize = Selezionare per ridimensionare
+settings.customResolution = Personalizzato ({size})
+settings.graphicsPreset = Preimpostazione grafica
+settings.graphicsPreset.low = Basso
+settings.graphicsPreset.low.description = Privilegia le prestazioni rispetto alla fedeltà.
+settings.graphicsPreset.medium = Medio
+settings.graphicsPreset.medium.description = Un equilibrio tra fedeltà e prestazioni.
+settings.graphicsPreset.high = Alto
+settings.graphicsPreset.high.description = Privilegia la fedeltà rispetto alle prestazioni.
+settings.graphicsPreset.epic = Epico
+settings.graphicsPreset.epic.description = La qualità prima di tutto.
+settings.graphicsPreset.custom = Personalizzato
+settings.maximized = Massimizzato
+settings.vsync = V-Sync
+settings.vsync.description = L'attivazione di V-Sync limita il numero di fotogrammi al secondo alla frequenza di aggiornamento del monitor.
+settings.fpsLimit = SPF massimo
+settings.unlimitedFps = FPS illimitati
+settings.viewDistance = Distanza di visione
+settings.viewDistance.description = La distanza di osservazione determina la distanza di visione.
+settings.viewDistance.performanceWarning = Consigliato: 64 GB di RAM e 16 GB di VRAM.
+settings.fieldOfView = Campo visivo
+settings.sprintFovEffect = FOV Effetto sprint
+settings.sprintFovIntensity = Intensità del campo visivo sprint
+settings.viewBobbingEffect = Vedere l'effetto dondolo
+settings.viewBobbingIntensity = Vedere l'intensità del rotolo
+settings.cameraShakeEffect = Effetto di movimento della telecamera
+settings.firstPersonCameraShakeIntensity = Intensità del movimento della telecamera in prima persona
+settings.thirdPersonCameraShakeIntensity = Intensità del tremolio della telecamera in terza persona
+settings.creativeInteractionDistance = Distanza di interazione creativa
+settings.adventureInteractionDistance = Distanza di interazione generale
+settings.gizmoScaleMultiplier = Rotazione / Traslazione Gizmo UI Scala
+settings.laserPointerColor = Colore predefinito del puntatore laser
+settings.laserPointerColor.description = Il colore esadecimale predefinito per lo strumento puntatore laser (ad esempio, #3CFAE6).
+settings.useBlockSubfaces = Utilizzare le sottosuperfici di blocco
+settings.displayBlockSubfaces = Mostra le sottosuperfici dei blocchi
+settings.displayBlockBoundaries = Mostra limiti di blocco
+settings.placeBlocksAtRange = Posizionare i blocchi a distanza
+settings.placeBlocksAtRangeInAdventureMode = ---> Fuori dalla modalità creativa
+settings.blockPlacementSupportValidation = Validazione del supporto per il posizionamento dei blocchi
+settings.blockPlacementFluidity = Fluidità nel posizionamento creativo dei blocchi
+settings.resetMouseSensitivityDuration = È ora di riacquistare la piena sensibilità del mouse.
+settings.automaticRenderScale = Scala di rendering automatica
+settings.automaticRenderScale.description = Determina se impostare automaticamente la scala di rendering in base alla GPU.
+settings.renderScale = Scala di rendering
+settings.renderScale.description = La percentuale della risoluzione dello schermo a cui il gioco sarà renderizzato.
+settings.placementPreview = Anteprima della posa dei blocchi
+settings.placementPreview.description = Definisce per quali tipi di blocchi verrà mostrata un'anteprima del posizionamento (quando si tiene un blocco in mano).
+<b><color is= #Nessuno</colore></b>: l'anteprima non verrà mai visualizzata.
+<b><color is= #f1ba50">Tutti</colour></b>: viene visualizzata l'anteprima di qualsiasi blocco.
+<b><color is= "#f1ba50">Multipart</colour></b>: l'anteprima verrà visualizzata solo per blocchi più grandi di un singolo blocco.
+settings.placementPreview.none = Nessuno
+settings.placementPreview.all = Tutti
+settings.placementPreview.multipart = Multipartito
+settings.displayCombatText = Mostra le cifre dei danni
+settings.displayCombatText.description = Se il server abilita la visualizzazione di elementi come i numeri dei danni. Se il server disabilita questa funzione, il testo del combattimento non verrà visualizzato indipendentemente da questa impostazione.
+settings.displayEntityStatBars = Mostra le barre di stato delle entità
+settings.displayEntityStatBars.description = Se la barra di stato dell'interfaccia utente (ad esempio la salute) sarà visualizzata sopra le entità quando il server la abilita. Se il server disattiva questa funzione, le barre della salute non saranno visualizzate, indipendentemente da questa impostazione.
+settings.displayNetworkQualityWarnings = Visualizzazione degli avvisi sulla qualità della rete
+settings.displayNetworkQualityWarnings.description = Se visualizzare le icone di avviso della qualità della rete nell'HUD.
+settings.displayInputBindingsOnHud = Mostra i collegamenti di input nell'HUD
+
+settings.displayInputBindingsOnHud.description = Se i tasti contestuali devono essere visualizzati nell'HUD.
+settings.hideHud = Nascondi HUD
+settings.hideHud.description = Nasconde tutti gli elementi dell'HUD.
+settings.hideHotbar = Nascondere la barra di accesso rapido
+settings.hideHotbar.description = Nascondere la barra di accesso rapido e gli elementi correlati.
+settings.hideCompass = Nascondere la bussola
+settings.hideCompass.description = Nascondere la bussola.
+settings.hideNotifications = Nascondere le notifiche
+settings.hideNotifications.description = Nascondere i pop-up di notifica.
+settings.hideChat = Nascondere la chat
+settings.hideChat.description = Nascondere la finestra di chat (non impedisce di ricevere messaggi).
+settings.hideHeldItem = Nascondere l'oggetto equipaggiato
+settings.hideHeldItem.description = Nascondere l'oggetto in mano (vista in prima persona).
+settings.maxChatMessages = Massimo di messaggi di chat
+settings.maxChatMessages.description = Determina il numero massimo di messaggi da mantenere nell'elenco della chat.
+settings.cameraBasedFlying = Volo rispetto alla telecamera
+settings.cameraBasedFlying.description = Definire il comportamento del volo.
+<b><color is= "#f1ba50">Su</colour></b>: vi muoverete a seconda della direzione in cui guardate.
+<b><color is= #f1ba50">Off</colour></b>: vi muoverete sempre nello stesso modo, indipendentemente dalla direzione in cui guardate.
+settings.showToolNotifications = Mostra le notifiche dello strumento
+settings.cameraShoulder = Fotocamera a spalla
+settings.cameraShoulder.left = A sinistra
+settings.cameraShoulder.right = Diritto
+settings.cameraShoulder.description = Stabilisce quale spalla guardare in terza persona.
+settings.lod = Dettaglio del mondo
+settings.lod.lowest = Più basso
+settings.lod.low = Basso
+settings.lod.medium = Medio
+settings.lod.high = Alto
+settings.lod.maximum = Massimo
+settings.lod.description = Controlla il livello di dettaglio del mondo. Le preimpostazioni più alte migliorano il rendering degli oggetti in lontananza, ma al costo di prestazioni notevolmente inferiori.
+settings.antialiasing = Anti-Aliasing
+settings.antialiasing.description = Attenua i bordi della geometria per migliorare la qualità dell'immagine. Quando si utilizza una scala di rendering inferiore, si consiglia di utilizzare un anti-aliasing di alta qualità.
+settings.antialiasing.off = Spento
+settings.antialiasing.fxaa = Basso (FXAA)
+settings.antialiasing.taa = Alto (TAA)
+settings.shaderQuality = Qualità dell'ombreggiatura
+settings.shaderQuality.low = Basso
+settings.shaderQuality.medium = Medio
+settings.shaderQuality.high = Alto
+settings.shaderQuality.description = La risoluzione utilizzata per gli effetti di illuminazione e ombreggiatura.
+settings.bloomQuality = Bloom
+settings.bloomQuality.off = Spento
+settings.bloomQuality.low = Basso
+settings.bloomQuality.medium = Medio
+settings.bloomQuality.high = Alto
+settings.bloomQuality.description = Bloom aggiunge un effetto luminoso intorno a fonti di luce intense. Le preimpostazioni più alte migliorano la qualità dell'effetto, ma non l'intensità.
+settings.dofQuality = Profondità di campo
+settings.dofQuality.off = Spento
+settings.dofQuality.low = Basso
+
+Servers may override this!
+
+settings.dofQuality.medium = Medio
+settings.dofQuality.high = Alto
+settings.dofQuality.description = Sfuma gli oggetti lontani.
+settings.useSunshaft = Raggi di sole
+settings.useSunshaft.description = Mostra i raggi di sole che attraversano le foglie.
+settings.useFoliageFading = Sbiadimento del fogliame
+settings.useFoliageFading.description = Consente la dissolvenza a distanza del fogliame per migliorare le prestazioni e ridurre lo sfarfallio.
+settings.shadowQuality = Qualità dell'ombra
+settings.shadowQuality.low = Basso
+settings.shadowQuality.medium = Medio
+settings.shadowQuality.high = Alto
+settings.shadowQuality.description = Controllare la qualità delle ombre in tempo reale e la frequenza con cui vengono aggiornate.
+settings.particleQuality = Qualità delle particelle
+settings.particleQuality.medium = Medio
+settings.particleQuality.high = Alto
+settings.particleQuality.description = Controlla la qualità e la densità degli effetti particellari.
+settings.depthBuffer = Precisione del buffer di profondità
+settings.depthBuffer.low = Basso
+settings.depthBuffer.high = Alto
+settings.depthBuffer.description = Controlla la precisione della profondità dell'immagine renderizzata. L'uso di un buffer di profondità più preciso può contribuire a ridurre lo sfarfallio degli oggetti in lontananza.
+settings.joinCameraPref = Preferenza della telecamera (se visualizzata)
+settings.joinCameraPref.description = Quale punto di vista della telecamera preferite quando entrate in un mondo?
+settings.joinCameraPref.first = Prima persona
+settings.joinCameraPref.third = Terza persona
+settings.joinCameraPref.lastUsed = Ricordare l'ultimo utilizzo
+settings.diagnosticMode = Modalità diagnostica
+settings.diagnosticMode.description = Si consiglia di attivare la modalità diagnostica se si intende creare contenuti. La modalità diagnostica stamperà più messaggi di errore sui contenuti non configurati correttamente.
+settings.useBlockyModelShaderWorkaround = Soluzione alternativa per i modelli con blocchi
+settings.useBlockyModelShaderWorkaround.description = Su alcuni Mac con hardware NVIDIA, il rendering dei modelli è molto lento senza questa soluzione. Per rendere effettiva la modifica, è necessario riavviare il gioco.
+settings.mouseRawInputMode = Modalità di ingresso raw
+settings.mouseInverted = Invertire il mouse
+settings.mouseXSpeed = Velocità di salita/discesa
+settings.mouseYSpeed = Velocità sinistra/destra
+settings.invertMouseWheelScrollDirection = Inversione della direzione di scorrimento della rotellina del mouse
+settings.invertMouseWheelScrollDirection.description = Inverte la direzione di scorrimento della rotellina del mouse (usato soprattutto quando si cambiano gli slot della barra di accesso rapido).
+settings.outputDevice = Dispositivo di uscita
+settings.masterVolume = Volume master
+settings.musicVolume = Volume della musica
+settings.sfxVolume = Volume SFX
+settings.ambientVolume = Volume ambientale
+settings.uiVolume = Volume UI
+settings.outputMode = Modalità di uscita
+settings.outputMode.description = Controlla la configurazione del canale di uscita audio.
+<b><color is= "#f1ba50">Impostazione predefinita</colore></b>: seleziona automaticamente l'opzione migliore per il dispositivo di uscita scelto.
+settings.outputMode.default = Predefinito
+settings.outputMode.stereo = Stereo (altoparlanti)
+settings.outputMode.stereoHrtf = Stereo (cuffie)
+settings.outputMode.mono = Scimmia
+settings.dynamicUiScaling = Scalatura dinamica dell'interfaccia utente
+settings.uiScale = Scala dell'interfaccia utente
+
+settings.defaultAudioDevice = Predefinito
+settings.bindingPopup.bind = Digitare "{binding}".
+settings.bindingPopup.pressKey = Premere un tasto qualsiasi o Esc per annullare.
+settings.bindings.clear = Elimina la combinazione di tasti corrente.
+settings.bindings.MoveForwards = Vai a
+settings.bindings.MoveBackwards = Indietro
+settings.bindings.StrafeLeft = Spostarsi a sinistra
+settings.bindings.StrafeRight = Spostarsi a destra
+settings.bindings.Jump = Salto
+settings.bindings.Crouch = Accovacciarsi/Scivolare/Rodare
+settings.bindings.Crouch.description = <b>Scivolare</b>: premere questo tasto mentre si corre per scivolare. <b>Roll</b>: premere questo tasto quando si cade per rotolare.
+settings.bindings.Sprint = Sprint
+settings.bindings.FlyUp = Volare verso l'alto
+settings.bindings.FlyDown = Volare verso il basso
+settings.bindings.Walk = Camminare
+settings.bindings.Chat = Attiva la chat
+settings.bindings.ShowPlayerList = Mostra l'elenco dei giocatori
+settings.bindings.OpenInventory = Apri inventario
+settings.bindings.OpenMap = Apri mappa
+settings.bindings.OpenDevTools = Strumenti di sviluppo aperti
+settings.bindings.DropItem = Rilascio dell'oggetto
+settings.bindings.ShowUtilitySlotSelector = Mostra il selettore degli slot di utilità
+settings.bindings.ToggleBuilderToolsLegend = Legenda degli strumenti di costruzione
+settings.bindings.OpenToolsSettings = Strumenti creativi aperti
+settings.bindings.ToolPaintBrush = Strumento pennello
+settings.bindings.ToolSculptBrush = Strumento pennello per scolpire
+settings.bindings.ToolSelectionTool = Strumento di selezione
+settings.bindings.ToolPaste = Strumento Incolla
+settings.bindings.ToolLine = Strumento linea
+settings.bindings.SwitchCameraMode = Cambiare la modalità di ripresa
+settings.bindings.ActivateCameraRotation = Attivare la rotazione della telecamera
+settings.bindings.ToggleProfiling = Profilo
+settings.bindings.SwitchHudVisibility = Modifica della visibilità dell'HUD
+settings.bindings.ToggleFullscreen = Alterna lo schermo intero
+settings.bindings.Command = Comando
+settings.bindings.Command.description = Premere per aprire la finestra di chat con un "/" già digitato per inserire un comando del server. L'elenco dei comandi del server è disponibile digitando /help.
+settings.bindings.TakeScreenshot = Acquisizione di schermate
+settings.bindings.IncreaseSpeedMultiplier = Aumentare il moltiplicatore di velocità
+settings.bindings.DecreaseSpeedMultiplier = Moltiplicatore di velocità
+settings.bindings.ToggleCreativeCollision = Collisione creativa alternativa
+settings.bindings.ToggleFlyCamera = Telecamera volante alternativa
+settings.bindings.ToggleDebugScreens = Alterna le schermate di debug
+settings.bindings.BlockInteractAction = Interazione con un blocco
+settings.bindings.RotateBlock = Ruotare un blocco
+settings.bindings.PrimaryItemAction = Azione principale
+settings.bindings.SecondaryItemAction = Azione secondaria
+settings.bindings.TertiaryItemAction = Azione terziaria
+settings.bindings.PickBlock = Scegliere un blocco
+settings.bindings.SwitchGameMode = Cambiare la modalità di gioco
+settings.bindings.ToggleBlockPreview = Alterna l'anteprima del blocco
+
+settings.bindings.OpenMachinimaEditor = Aprire l'editor di Machinima
+settings.bindings.OpenBuilderToolsUI = Interfaccia utente di Open Builder Tools
+settings.bindings.HotbarSlot1 = Slot veloce 1
+settings.bindings.HotbarSlot2 = Slot veloce 2
+settings.bindings.HotbarSlot3 = Slot veloce 3
+settings.bindings.HotbarSlot4 = Slot veloce 4
+settings.bindings.HotbarSlot5 = Slot veloce 5
+settings.bindings.HotbarSlot6 = Slot veloce 6
+settings.bindings.HotbarSlot7 = Slot veloce 7
+settings.bindings.HotbarSlot8 = Slot veloce 8
+settings.bindings.HotbarSlot9 = Slot veloce 9
+settings.bindings.Ability1ItemAction = Utilizzare l'abilità 1
+settings.bindings.Ability2ItemAction = Utilizzare l'abilità 2
+settings.bindings.Ability3ItemAction = Utilizzare l'abilità 3
+settings.bindings.UndoItemAction = Annullamento
+settings.bindings.RedoItemAction = Pronto
+settings.bindings.AddRemoveFavoriteMaterialItemAction = Aggiungere/rimuovere il materiale preferito
+settings.bindings.DismountAction = Montaggio/smontaggio
+settings.bindings.AlternatePlaySculptBrushModeModifier = Modifica del modificatore del pennello di scultura
+settings.bindings.UsePaintModeForBrush = Utilizzo della modalità Paint per il pennello
+settings.bindings.SelectBlockFromSet = Selezionare il blocco dal set
+settings.bindings.PastePreview = Anteprima di incollaggio
+settings.bindings.ToggleFlyCameraControlTarget = Alterna il controllo della telecamera Fly
+settings.bindings.ToggleFlyCameraControlTarget.description = Cambia l'obiettivo controllato dalla telecamera volante, sia essa stessa o il giocatore.
+settings.bindings.PreviousBuilderToolsLegendPage = Legenda - Pagina precedente
+settings.bindings.NextBuilderToolsLegendPage = Leggenda - Pagina successiva
+settings.autoJumpObstacle = Salto automatico
+settings.autoJumpObstacle.description = Con questa impostazione attivata, si scalano automaticamente i blocchi con un'altezza massima di 1 unità.
+settings.enableUtilityQuickSwap = Consente di cambiare rapidamente le utenze
+settings.enableUtilityQuickSwap.description = Se abilitato, premendo il tasto assegnato si passa immediatamente alla voce successiva della ruota delle utilità.
+settings.enableArachnophobiaMode = Attiva la modalità aracnofobia
+settings.enableArachnophobiaMode.description = Se attivata, i ragni saranno sostituiti da un altro modello (il default del server è un granchio). Questa impostazione richiede di tornare al menu principale perché abbia effetto!
+settings.autoJumpGap = Saltare automaticamente gli spazi vuoti
+settings.builderMode = Modalità costruttore
+settings.builderMode.tooltip = Se attivata E in modalità Creativa, disattiva alcune funzioni (ad esempio, gli effetti di caduta, il movimento della testa, ecc.)
+settings.mantling = Abilitazione/disabilitazione del mantling
+settings.minVelocityMantling = Velocità minima Y per il mantello
+settings.maxVelocityMantling = Velocità massima Y al mantello
+settings.jumpForceSpeedMultiplierStep = Forza di salto aggiunta per ogni aumento del livello di velocità
+settings.maxJumpForceSpeedMultiplier = Massimo valore aggiunto alla potenza di salto
+settings.mantlingCameraOffsetY = Spostamento della camera di mantecazione Y
+settings.mantleBlockHeight = Altezza del blocco del mantello
+settings.sprintForce = Forza di sprint
+settings.sprintAccelerationDuration = Durata dell'accelerazione
+settings.sprintDecelerationDuration = Durata della decelerazione
+settings.sprintAccelerationEasingType = Tipo di accelerazione dolce
+settings.sprintDecelerationEasingType = Tipo di decelerazione morbida
+settings.slideDecelerationEasingType = Tipo di decelerazione morbida
+settings.slideDecelerationDuration = Durata della decelerazione
+settings.staminaLowAlertPercent = Allarme di bassa resistenza Percentuale
+
+settings.staminaDebugInfo = Visualizzare le informazioni di debug di Stamina
+settings.weaponPullback = Ritiro delle armi
+settings.itemAnimationsClipGeometry = Animazioni di elementi Clip geometrici (per animazione)
+settings.itemsClipGeometry = Elementi Geometria dei clip (per elemento)
+settings.overrideFirstPersonAnimations = Utilizzare le animazioni di esclusione in prima persona
+settings.showEntityMarkers = Mostra i marcatori di entità
+settings.entityUIMaxEntities = Entità massime
+settings.entityUIMaxDistance = Distanza massima
+settings.entityUIHideDelay = Nascondere il ritardo
+settings.entityUIFadeInDuration = Durata della dissolvenza
+settings.entityUIFadeOutDuration = Durata della dissolvenza
+settings.mountMinTurnRate = Velocità di rotazione minima
+settings.mountMinTurnRate.tooltip = La velocità minima di rotazione della staffa (gradi al secondo).
+settings.mountMaxTurnRate = Velocità massima di rotazione
+settings.mountMaxTurnRate.tooltip = La velocità massima di rotazione della staffa (gradi al secondo).
+settings.mountSpeedMinTurnRate = Velocità di rotazione minima
+settings.mountSpeedMinTurnRate.tooltip = A partire da questa velocità, si applica la velocità di rotazione minima (velocità superiore = rotazione più lenta).
+settings.mountSpeedMaxTurnRate = Velocità massima di rotazione
+settings.mountSpeedMaxTurnRate.tooltip = A partire da questa velocità, si applica la velocità di rotazione massima (velocità maggiore = rotazione più lenta).
+settings.mountForwardsAccelerationEasingType = Accelerazione in avanti Tipo di decelerazione
+settings.mountForwardsAccelerationEasingType.tooltip = La curva di rilassamento da utilizzare per l'accelerazione in avanti.
+settings.mountForwardsDecelerationEasingType = Tipo di decelerazione degli scioperanti
+settings.mountForwardsDecelerationEasingType.tooltip = La curva di rilassamento da utilizzare per la decelerazione in avanti.
+settings.mountBackwardsAccelerationEasingType = Tipo di smussamento dell'accelerazione all'indietro
+settings.mountBackwardsAccelerationEasingType.tooltip = La curva di rilassamento da utilizzare per l'accelerazione all'indietro.
+settings.mountBackwardsDecelerationEasingType = Tipo di decelerazione all'indietro
+settings.mountBackwardsDecelerationEasingType.tooltip = La curva di rilassamento da utilizzare per la decelerazione all'indietro.
+settings.mountForwardsAccelerationDuration = Durata dell'accelerazione in avanti
+settings.mountForwardsAccelerationDuration.tooltip = Il tempo necessario per raggiungere la velocità massima quando si corre in avanti.
+settings.mountForwardsDecelerationDuration = Durata della decelerazione in avanti
+settings.mountForwardsDecelerationDuration.tooltip = Il tempo necessario per raggiungere lo stato di inattività dopo l'avanzamento.
+settings.mountBackwardsAccelerationDuration = Durata dell'accelerazione all'indietro
+settings.mountBackwardsAccelerationDuration.tooltip = Il tempo necessario per raggiungere la velocità massima quando si corre all'indietro.
+settings.mountBackwardsDecelerationDuration = Durata della decelerazione all'indietro
+settings.mountBackwardsDecelerationDuration.tooltip = Il tempo necessario per raggiungere lo stato di riposo dopo la marcia indietro.
+settings.mountForcedAccelerationMultiplierSetting = Moltiplicatore di accelerazione forzata
+settings.mountForcedAccelerationMultiplierSetting.tooltip = Il moltiplicatore utilizzato per ridurre la durata dell'accelerazione quando si preme l'input Sprint durante la corsa.
+settings.mountForcedDecelerationMultiplierSetting = Moltiplicatore della decelerazione forzata
+settings.mountForcedDecelerationMultiplierSetting.tooltip = Il moltiplicatore utilizzato per ridurre la durata della decelerazione premendo l'ingresso di movimento opposto alla velocità corrente.
+settings.mountRequireNewInput = Richiedere un nuovo ingresso dopo una decelerazione forzata
+settings.mountRequireNewInput.tooltip = Se è necessario rilasciare e premere l'ingresso di movimento per muoversi di nuovo dopo una decelerazione forzata.
+settings.displayTempPrefix = Mostra i tag [TMP] nel testo
+settings.armorItemsPickupLocation = Oggetti di armatura
+settings.armorItemsPickupLocation.description = Definisce la posizione a cui dare priorità per lo stoccaggio degli articoli al momento del ritiro.
+<b><color is= "#f1ba50">Barra di accesso rapido</colour></b>: i nuovi oggetti verranno prima inseriti nella barra di accesso rapido e, una volta riempiti, verranno spostati nell'inventario.
+<b><color is= "#f1ba50">Inventario</colour></b>: i nuovi oggetti verranno prima salvati nell'inventario e, una volta riempito, verranno spostati nella barra di accesso rapido.
+settings.weaponAndToolItemsPickupLocation = Armi e strumenti
+settings.weaponAndToolItemsPickupLocation.description = Definisce la posizione a cui dare la priorità per l'immagazzinamento degli oggetti durante il loro prelievo.
+<b><color is= "#f1ba50">Barra di accesso rapido</colour></b>: i nuovi oggetti verranno prima inseriti nella barra di accesso rapido e, una volta riempiti, verranno spostati nell'inventario.
+<b><color is= "#f1ba50">Inventario</colour></b>: i nuovi oggetti verranno prima salvati nell'inventario e, una volta riempito l'inventario, verranno inseriti nella barra di accesso rapido.
+
+
+# === timeline ===
+
+# === Feedback Dialog ===
+settings.usableItemsPickupLocation = Articoli utilizzabili
+settings.usableItemsPickupLocation.description = Definisce la posizione a cui dare la priorità per l'immagazzinamento degli oggetti durante il loro prelievo.
+<b><color is= "#f1ba50">Barra di accesso rapido</colour></b>: i nuovi oggetti verranno prima inseriti nella barra di accesso rapido e, una volta pieni, verranno spostati nell'inventario.
+<b><color is= "#f1ba50">Inventario</colour></b>: i nuovi oggetti verranno prima salvati nell'inventario e, una volta riempito l'inventario, verranno spostati nella barra di accesso rapido.
+settings.solidBlockItemsPickupLocation = Articoli in blocco solido
+settings.solidBlockItemsPickupLocation.description = Definisce la posizione a cui dare la priorità per l'immagazzinamento degli oggetti durante il loro prelievo.
+<b><color is= "#f1ba50">Barra di accesso rapido</colour></b>: i nuovi oggetti verranno prima inseriti nella barra di accesso rapido e, una volta riempiti, verranno spostati nell'inventario.
+<b><color is= "#f1ba50">Inventario</colour></b>: i nuovi oggetti verranno prima salvati nell'inventario e, una volta riempito, verranno spostati nella barra di accesso rapido.
+settings.miscItemsPickupLocation = Articoli vari
+settings.miscItemsPickupLocation.description = Definisce la posizione a cui dare la priorità per lo stoccaggio degli oggetti durante il prelievo.
+<b><color is= "#f1ba50">Barra di accesso rapido</colour></b>: i nuovi oggetti verranno prima inseriti nella barra di accesso rapido e, una volta pieni, verranno spostati nell'inventario.
+<b><color is= "#f1ba50">Inventario</colour></b>: i nuovi oggetti verranno prima salvati nell'inventario e, una volta riempito l'inventario, verranno inseriti nella barra di accesso rapido.
+settings.pickupLocation.hotbar = Barra degli strumenti
+settings.pickupLocation.storage = Inventario
+settings.cameraBasedClimbing = Scala rispetto alla telecamera
+settings.cameraBasedClimbing.description = Definire il comportamento dell'escalation.
+<b><color is= "#f1ba50">In</colour></b>: premendo in avanti, ci si sposta a seconda della direzione in cui si è rivolti.
+<b><color is= #f1ba50">Off</colour></b>: vi muoverete sempre nello stesso modo, indipendentemente dalla direzione in cui guardate.
+settings.crouchBehavior = Comportamento accovacciato
+settings.sprintBehavior = Comportamento in volata
+settings.walkBehavior = Comportamento a piedi
+settings.inputMode.hold = Mantieni
+settings.inputMode.toggle = Alterna
+settings.resetToDefaultsConfirmationModal.title = Ripristino della configurazione
+settings.resetToDefaultsConfirmationModal.text = Siete sicuri di voler ripristinare tutte le impostazioni ai valori predefiniti?
+timeline.frame = Sempre da
+timeline.currentFrame = Telaio: {frame, number}
+timeline.tabs.properties = Proprietà
+timeline.tabs.events = Eventi
+timeline.toolbar.addActor = Aggiungi attore
+timeline.toolbar.restart = Riavvio ({keybind})
+timeline.toolbar.togglePause = Pausa alternata ({keybind})
+timeline.toolbar.toggleLoop = Anello di commutazione
+timeline.events.add = Aggiungi evento
+feedback.title = Invia un errore o un commento
+feedback.selectType = Cosa vorresti inviare?
+feedback.feedback.title = Invia i commenti
+feedback.feedback.description = Aiutateci a migliorare Hytale condividendo le vostre opinioni e i vostri suggerimenti.
+feedback.feedback.button.label = Commenti
+feedback.feedback.button.tooltip = Invia i commenti
+feedback.bugreport.title = Segnala un errore
+feedback.bugreport.description = Avete trovato qualcosa che non funziona? Fatecelo sapere, così potremo risolverlo.
+feedback.bugreport.button.label = Segnala un errore
+feedback.bugreport.button.tooltip = Segnala un errore
+feedback.bugreport.includeLogFile = Includere il file di log corrente
+feedback.type.feedback = Commenti
+feedback.type.bugreport = Segnalazione degli errori
+feedback.warning.abuse = L'abuso della funzione di segnalazione di bug e feedback può comportare la sospensione dell'account.
+feedback.field.type = Tipo
+feedback.field.summary = Sintesi
+
+feedback.field.summary.placeholder = Breve sintesi dei vostri commenti o dell'errore
+feedback.field.description = Descrizione
+feedback.field.description.placeholder = Fornite informazioni dettagliate sui vostri commenti o sulle segnalazioni di bug.
+feedback.field.attachments = Allegati
+feedback.attachments.addScreenshot = Aggiunta di schermate
+feedback.attachments.addLogFile = Aggiunta di altri file di log
+feedback.attachments.selectScreenshot = Selezionare le schermate da allegare
+feedback.attachments.selectLogFile = Selezionare i file di registro da allegare
+feedback.submit = Inviare
+feedback.submitting = Invio...
+feedback.error.summaryRequired = Inserire una sintesi.
+feedback.error.descriptionRequired = Inserire una descrizione.
+feedback.error.unknown = Si è verificato un errore. Si prega di riprovare.
+feedback.error.maxAttachments = È possibile allegare solo 3 file.
+feedback.error.fileTooLarge = Il file "{file}" è troppo grande ({size} MB). La dimensione massima del file è {maxSize}.
+feedback.error.invalidFileType = "{file}" non è un tipo di file supportato. Sono ammessi solo i file .jpg, .jpeg, .png e .log.
+feedback.error.fileNotFound = Nessun "{file}" trovato.
+feedback.error.fileError = Impossibile leggere "{file}".
+feedback.success.title = Grazie!
+feedback.success.feedback = Il tuo commento è stato inviato con successo, grazie per il tuo feedback!
+feedback.success.bugreport = La segnalazione dell'errore è stata inviata con successo, la controlleremo!
+feedback.success.submitMore = Invia di più
+bugReportButton.tooltip = Segnalare un errore o inviare commenti
