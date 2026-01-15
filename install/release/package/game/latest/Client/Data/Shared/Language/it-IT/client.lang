@@ -1087,7 +1087,7 @@ gamePageNavigation.buttons.ContentCreation.disabledTooltip = Il menu creativo è
 gamePageNavigation.buttons.ContentCreation.disabledTooltip.title = [MODALITÀ CREATIVA
 gamePageNavigation.buttons.ContentCreation.disabledTooltip.description = [In modalità creativa si ha accesso a potenti strumenti di editing. Per passare alla modalità creativa, digitare "/op self" e poi attivare la modalità gioco con il tasto di scelta rapida "O".
 gamePageNavigation.earlyAccess = Accesso anticipato
-general.button.cancel = Annullamento
+general.button.cancel = Annulla
 
 
 
@@ -1100,7 +1100,7 @@ general.button.cancel = Annullamento
 
 
 
-general.button.confirm = Confermare
+general.button.confirm = Conferma
 general.button.save = Risparmiare
 general.button.ok = Concordato.
 general.button.saveChanges = Salva le modifiche
