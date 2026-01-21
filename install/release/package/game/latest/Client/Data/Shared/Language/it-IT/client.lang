@@ -1062,7 +1062,7 @@ devTools.gameInfo.keys.NetworkReceived = Ricevuti
 disconnection.title.disconnected = Disconnesso dal server
 disconnection.title.failedToConnect = Impossibile connettersi al server
 
-disconnection.button.quitToMainMenu = Esci al menu principale
+disconnection.button.quitToMainMenu = Torna al menu principale
 disconnection.button.reconnect = Ricollegati
 disconnection.button.reconnect.inProgress = Riconnessione...
 
@@ -1631,8 +1631,8 @@ mediaBrowser.youtube.errors.requestFailed = Impossibile recuperare i dati da You
 
 # === menuOverlay ===
 menuOverlay.buttons.returnToGame = Ritorna al gioco
-menuOverlay.buttons.quitToDesktop = Esci al desktop
-menuOverlay.buttons.quitToMainMenu = Esci al menu principale
+menuOverlay.buttons.quitToDesktop = Esci dal gioco
+menuOverlay.buttons.quitToMainMenu = Torna al menu principale
 menuOverlay.buttons.codex = Codex
 menuOverlay.buttons.settings = Impostazioni
 menuOverlay.buttons.feedback = Invia bug o feedback
