@@ -20,8 +20,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # Use PAT if available (for auto-retrigger), otherwise use GITHUB_TOKEN
-          token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -55,8 +54,9 @@ jobs:
             echo "Release v${VERSION} does not exist (HTTP $RESPONSE)"
           fi
 
-      - name: Increment version and commit if release exists
+      - name: Increment version if release exists
         if: steps.check_release.outputs.exists == 'true'
+        id: increment_version
         run: |
           VERSION="${{ steps.read_version.outputs.version }}"
           
@@ -75,27 +75,32 @@ jobs:
             fs.writeFileSync('manifest.json', JSON.stringify(manifest, null, 2) + '\n');
           "
           
-          # Commit and push
-          # Note: Using PAT will trigger the workflow again, GITHUB_TOKEN won't
+          # Commit locally (don't push yet)
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add manifest.json
           git commit -m "chore: auto-increment version to ${NEW_VERSION}"
           
-          # Use PAT for push if available (enables auto-retrigger), otherwise GITHUB_TOKEN
-          if [ -n "${{ secrets.PAT }}" ]; then
-            echo "Using PAT for push (will trigger workflow)"
-            git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}.git
+          # Save new version for next steps
+          echo "version=${NEW_VERSION}" >> $GITHUB_OUTPUT
+          echo "Updated version to ${NEW_VERSION}"
+
+      - name: Determine final version
+        id: final_version
+        run: |
+          # Use incremented version if it exists, otherwise use original version
+          if [ "${{ steps.increment_version.outputs.version }}" != "" ]; then
+            FINAL_VERSION="${{ steps.increment_version.outputs.version }}"
           else
-            echo "Using GITHUB_TOKEN for push (will not trigger workflow - use manual trigger or set PAT secret)"
+            FINAL_VERSION="${{ steps.read_version.outputs.version }}"
           fi
-          git push origin main
+          echo "version=${FINAL_VERSION}" >> $GITHUB_OUTPUT
+          echo "Final version for release: ${FINAL_VERSION}"
 
       - name: Create release package
-        if: steps.check_release.outputs.exists == 'false'
         id: create_package
         run: |
-          VERSION="${{ steps.read_version.outputs.version }}"
+          VERSION="${{ steps.final_version.outputs.version }}"
           ZIP_NAME="Hytale_Translation_Pack_v${VERSION}.zip"
           
           # Create a temporary directory for the package
@@ -117,13 +122,17 @@ jobs:
           echo "zip_name=${ZIP_NAME}" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
-        if: steps.check_release.outputs.exists == 'false'
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: v${{ steps.read_version.outputs.version }}
-          name: Release v${{ steps.read_version.outputs.version }}
+          tag_name: v${{ steps.final_version.outputs.version }}
+          name: Release v${{ steps.final_version.outputs.version }}
           files: ${{ steps.create_package.outputs.zip_name }}
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push version commit if version was incremented
+        if: steps.increment_version.outputs.version != ''
+        run: |
+          git push origin main
 
