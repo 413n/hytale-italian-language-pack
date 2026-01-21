@@ -1,0 +1,111 @@
+name: Create Release
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '.github/workflows/**'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Read version from manifest
+        id: read_version
+        run: |
+          VERSION=$(node -p "require('./manifest.json').Version")
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Current version: $VERSION"
+
+      - name: Check if release exists
+        id: check_release
+        run: |
+          VERSION="${{ steps.read_version.outputs.version }}"
+          REPO="${{ github.repository }}"
+          
+          # Check if release exists using GitHub API
+          RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${REPO}/releases/tags/v${VERSION}")
+          
+          if [ "$RESPONSE" = "200" ]; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "Release v${VERSION} already exists"
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "Release v${VERSION} does not exist (HTTP $RESPONSE)"
+          fi
+
+      - name: Increment version and commit if release exists
+        if: steps.check_release.outputs.exists == 'true'
+        run: |
+          VERSION="${{ steps.read_version.outputs.version }}"
+          
+          # Increment patch version
+          IFS='.' read -r major minor patch <<< "$VERSION"
+          NEW_PATCH=$((patch + 1))
+          NEW_VERSION="${major}.${minor}.${NEW_PATCH}"
+          
+          echo "Incrementing version from ${VERSION} to ${NEW_VERSION}"
+          
+          # Update manifest.json
+          node -e "
+            const fs = require('fs');
+            const manifest = JSON.parse(fs.readFileSync('manifest.json', 'utf8'));
+            manifest.Version = '${NEW_VERSION}';
+            fs.writeFileSync('manifest.json', JSON.stringify(manifest, null, 2) + '\n');
+          "
+          
+          # Commit and push
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add manifest.json
+          git commit -m "chore: auto-increment version to ${NEW_VERSION}"
+          git push
+
+      - name: Create release package
+        if: steps.check_release.outputs.exists == 'false'
+        run: |
+          # Create a temporary directory for the package
+          mkdir -p package_temp
+          
+          # Copy install folder and manifest.json
+          cp -r install package_temp/
+          cp manifest.json package_temp/
+          
+          # Create zip file (contents directly in zip, no parent folder)
+          cd package_temp
+          zip -r ../release-package.zip ./*
+          cd ..
+          
+          # Clean up temp directory
+          rm -rf package_temp
+
+      - name: Create GitHub Release
+        if: steps.check_release.outputs.exists == 'false'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.read_version.outputs.version }}
+          name: Release v${{ steps.read_version.outputs.version }}
+          files: release-package.zip
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
