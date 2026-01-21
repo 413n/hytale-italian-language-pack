@@ -82,7 +82,11 @@ jobs:
 
       - name: Create release package
         if: steps.check_release.outputs.exists == 'false'
+        id: create_package
         run: |
+          VERSION="${{ steps.read_version.outputs.version }}"
+          ZIP_NAME="Hytale_Translation_Pack_v${VERSION}.zip"
+          
           # Create a temporary directory for the package
           mkdir -p package_temp
           
@@ -92,11 +96,14 @@ jobs:
           
           # Create zip file (contents directly in zip, no parent folder)
           cd package_temp
-          zip -r ../release-package.zip ./*
+          zip -r ../${ZIP_NAME} ./*
           cd ..
           
           # Clean up temp directory
           rm -rf package_temp
+          
+          # Save zip name for next step
+          echo "zip_name=${ZIP_NAME}" >> $GITHUB_OUTPUT
 
       - name: Create GitHub Release
         if: steps.check_release.outputs.exists == 'false'
@@ -104,7 +111,7 @@ jobs:
         with:
           tag_name: v${{ steps.read_version.outputs.version }}
           name: Release v${{ steps.read_version.outputs.version }}
-          files: release-package.zip
+          files: ${{ steps.create_package.outputs.zip_name }}
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
