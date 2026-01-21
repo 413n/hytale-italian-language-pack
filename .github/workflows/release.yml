@@ -101,7 +101,7 @@ jobs:
         id: create_package
         run: |
           VERSION="${{ steps.final_version.outputs.version }}"
-          ZIP_NAME="Hytale_Translation_Pack_v${VERSION}.zip"
+          ZIP_NAME="Hytale_Italian_Translation_Pack_v${VERSION}.zip"
           
           # Create a temporary directory for the package
           mkdir -p package_temp
